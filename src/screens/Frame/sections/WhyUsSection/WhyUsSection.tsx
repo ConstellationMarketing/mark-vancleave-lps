@@ -12,7 +12,7 @@ export const WhyUsSection = (): JSX.Element => {
           />
 
           <div className="w-full lg:w-[653px] space-y-4 md:space-y-6 text-center lg:text-left">
-            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
+            <h2 className="font-bold text-[24px] md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
               About Law Offices of Mark D. VanCleave, PLLC
             </h2>
 

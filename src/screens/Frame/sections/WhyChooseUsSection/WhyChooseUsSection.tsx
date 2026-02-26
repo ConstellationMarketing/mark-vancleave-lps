@@ -44,7 +44,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
       <div className="container mx-auto max-w-6xl px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[50px]">
+          <h2 className="text-[24px] md:text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[28px] md:leading-[50px]">
             Why Choose Us for Your Injury Claim
           </h2>
           <div className="w-24 h-1 bg-[#d44500] mx-auto mb-8"></div>
