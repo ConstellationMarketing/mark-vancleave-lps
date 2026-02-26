@@ -18,7 +18,7 @@ export const CallToActionSection = (): JSX.Element => {
           <div className="w-[160px] md:w-[216px] h-[60px] md:h-[83px] bg-[#182246] flex flex-col items-center justify-center px-2">
             <a 
               href="tel:5551234567"
-              className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-medium text-white hover:text-[#ff8a00] transition-colors duration-300"
+              className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Roboto',Helvetica] font-medium text-white hover:text-[#ff8a00] transition-colors duration-300"
             >
               (555) 123-4567
             </a>
@@ -35,12 +35,12 @@ export const CallToActionSection = (): JSX.Element => {
           Trusted Criminal Defense in Springfield
         </p>
 
-        <h1 className="mt-4 md:mt-[30px] [text-shadow:0px_0px_16.5px_#00000066] [font-family:'Montserrat',Helvetica] font-medium text-white text-2xl md:text-4xl lg:text-[55px] tracking-[0] leading-[28px] md:leading-[44px] lg:leading-[60.5px] text-center md:text-left">
+        <h1 className="mt-4 md:mt-[30px] [text-shadow:0px_0px_16.5px_#00000066] [font-family:'Roboto',Helvetica] font-medium text-white text-2xl md:text-4xl lg:text-[55px] tracking-[0] leading-[28px] md:leading-[44px] lg:leading-[60.5px] text-center md:text-left">
           Experienced. Respected. Relentless in Your Defense.
         </h1>
 
         <Button 
-          className="mt-6 md:mt-[38px] w-full md:w-[347px] h-12 md:h-[59px] bg-[#ff8a00] rounded-[100px] border-2 border-solid hover:bg-[#e67e00] [font-family:'Montserrat',Helvetica] font-medium text-white text-base md:text-lg tracking-[0] leading-[24px] md:leading-[30.6px] mx-auto md:mx-0 block"
+          className="mt-6 md:mt-[38px] w-full md:w-[347px] h-12 md:h-[59px] bg-[#ff8a00] rounded-[100px] border-2 border-solid hover:bg-[#e67e00] [font-family:'Roboto',Helvetica] font-medium text-white text-base md:text-lg tracking-[0] leading-[24px] md:leading-[30.6px] mx-auto md:mx-0 block"
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
         >
           Schedule a Free Consultation

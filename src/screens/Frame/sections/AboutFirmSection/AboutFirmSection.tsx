@@ -37,11 +37,11 @@ export const AboutFirmSection = (): JSX.Element => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[50px]">
+          <h2 className="text-5xl font-bold text-[#091626] text-center mb-6 font-['Roboto',Helvetica] leading-[50px]">
             About Law Offices of Mark D. VanCleave, PLLC
           </h2>
           <div className="w-24 h-1 bg-[#d44500] mx-auto mb-8"></div>
-          <h3 className="text-2xl font-bold text-[#00417b] mb-8 font-['Montserrat',Helvetica] leading-[32px]">
+          <h3 className="text-2xl font-bold text-[#00417b] mb-8 font-['Roboto',Helvetica] leading-[32px]">
             Standing up for those harmed by the negligence of others
           </h3>
         </div>
@@ -55,10 +55,10 @@ export const AboutFirmSection = (): JSX.Element => {
                 <div className="w-16 h-16 bg-[#d44500] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#c23900] transition-colors duration-300">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-lg font-bold text-[#091626] mb-2 font-['Montserrat',Helvetica]">
+                <h4 className="text-lg font-bold text-[#091626] mb-2 font-['Roboto',Helvetica]">
                   {highlight.title}
                 </h4>
-                <p className="text-sm text-gray-600 font-['Montserrat',Helvetica]">
+                <p className="text-sm text-gray-600 font-['Roboto',Helvetica]">
                   {highlight.description}
                 </p>
               </div>
@@ -81,10 +81,10 @@ export const AboutFirmSection = (): JSX.Element => {
 
         {/* Call to Action */}
         <div className="text-center mt-16 bg-[#00417b] rounded-2xl p-12">
-          <h3 className="text-3xl font-bold text-white mb-4 font-['Montserrat',Helvetica]">
+          <h3 className="text-3xl font-bold text-white mb-4 font-['Roboto',Helvetica]">
             Schedule Your Free Consultation
           </h3>
-          <p className="text-xl text-[#cbd5e0] mb-8 font-['Montserrat',Helvetica] max-w-2xl mx-auto">
+          <p className="text-xl text-[#cbd5e0] mb-8 font-['Roboto',Helvetica] max-w-2xl mx-auto">
             The phone call is free. Our Baytown law firm would love to hear your story and use our 25+ years of experience to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -100,7 +100,7 @@ export const AboutFirmSection = (): JSX.Element => {
             >
               Request Consultation
             </button>
-            <span className="text-[#cbd5e0] font-['Montserrat',Helvetica]">
+            <span className="text-[#cbd5e0] font-['Roboto',Helvetica]">
               Free Consultation • No Upfront Fees
             </span>
           </div>

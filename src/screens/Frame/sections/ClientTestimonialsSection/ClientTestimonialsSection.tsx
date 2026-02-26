@@ -38,7 +38,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
     <section className="w-full bg-white py-8">
       <div className="max-w-[1130px] mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-[#091626] mb-4 font-['Montserrat',Helvetica]">
+          <h2 className="text-3xl font-bold text-[#091626] mb-4 font-['Roboto',Helvetica]">
             What Our Clients Say
           </h2>
           <div className="w-16 h-1 bg-[#d44500] mx-auto mb-4"></div>
@@ -51,7 +51,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
               ))}
             </div>
             <span className="text-2xl font-bold text-[#434343] ml-2">5.0</span>
-            <span className="text-gray-600 font-['Montserrat',Helvetica]">Google Reviews</span>
+            <span className="text-gray-600 font-['Roboto',Helvetica]">Google Reviews</span>
           </div>
         </div>
         
@@ -81,10 +81,10 @@ export const ClientTestimonialsSection = (): JSX.Element => {
 
                 {/* Author */}
                 <div className="border-t border-gray-200 pt-4">
-                  <p className="font-['Montserrat',Helvetica] font-bold text-[#434343] text-lg">
+                  <p className="font-['Roboto',Helvetica] font-bold text-[#434343] text-lg">
                     {testimonial.author}
                   </p>
-                  <p className="text-sm text-gray-500 font-['Montserrat',Helvetica]">
+                  <p className="text-sm text-gray-500 font-['Roboto',Helvetica]">
                     {testimonial.timeframe && `${testimonial.timeframe} • `}Verified Google Review
                   </p>
                 </div>

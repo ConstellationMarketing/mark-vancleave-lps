@@ -18,7 +18,7 @@ export const HeroSection = (): JSX.Element => {
           <div className="w-[180px] md:w-[280px] h-[60px] md:h-[83px] bg-[#00417b] flex flex-col items-center justify-center px-2">
             <a
               href="tel:2813038800"
-              className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
+              className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Roboto',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
             >
               (281) 303-8800
             </a>
@@ -35,7 +35,7 @@ export const HeroSection = (): JSX.Element => {
           Injured in a Baytown Auto Accident? We Can Help You Seek Fair Compensation.
         </h1>
 
-        <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Montserrat',Helvetica] font-bold text-white text-[50px] leading-[1.1] text-center md:text-left">
+        <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Roboto',Helvetica] font-bold text-white text-[50px] leading-[1.1] text-center md:text-left">
           With over 25 years of experience, we provide empathetic, clear, and reassuring legal support for victims of auto and 18-wheeler accidents in our local community.
         </p>
 

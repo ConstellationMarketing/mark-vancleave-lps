@@ -21,7 +21,7 @@ export const ThankYou = (): JSX.Element => {
               <div className="w-[180px] md:w-[280px] h-[60px] md:h-[83px] bg-[#00417b] flex flex-col items-center justify-center px-2">
                 <a
                   href="tel:2813038800"
-                  className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
+                  className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Roboto',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
                 >
                   (281) 303-8800
                 </a>
@@ -37,7 +37,7 @@ export const ThankYou = (): JSX.Element => {
             <div className="flex items-center justify-center mb-3 md:mb-4">
               <CheckCircle className="w-12 md:w-16 h-12 md:h-16 text-[#d44500]" />
             </div>
-            <h1 className="[font-family:'Montserrat',Helvetica] font-bold text-white text-2xl md:text-3xl lg:text-4xl leading-[28px] md:leading-[35px] lg:leading-[44px]">
+            <h1 className="[font-family:'Roboto',Helvetica] font-bold text-white text-2xl md:text-3xl lg:text-4xl leading-[28px] md:leading-[35px] lg:leading-[44px]">
               Your Request Has Been Received
             </h1>
           </div>
@@ -46,16 +46,16 @@ export const ThankYou = (): JSX.Element => {
         {/* Main Thank You Content */}
         <section className="w-full py-12 md:py-20 bg-white">
           <div className="container mx-auto max-w-4xl px-4 text-center">
-            <h2 className="font-['Montserrat',Helvetica] font-bold text-[#091626] text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 leading-[24px] md:leading-[30px] lg:leading-[39.6px]">
+            <h2 className="font-['Roboto',Helvetica] font-bold text-[#091626] text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 leading-[24px] md:leading-[30px] lg:leading-[39.6px]">
               Attorney Mark VanCleave or a member of our team will contact you shortly.
             </h2>
 
-            <p className="font-['Montserrat',Helvetica] font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] mb-6 md:mb-8 max-w-2xl mx-auto">
+            <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] mb-6 md:mb-8 max-w-2xl mx-auto">
               Thank you for reaching out to the Law Offices of Mark D. VanCleave, PLLC. We understand the challenges you're facing after an accident, and we're ready to help you seek the compensation you deserve.
             </p>
 
             <div className="bg-[#00417b] rounded-2xl p-6 md:p-8 mb-8 md:mb-12">
-              <h3 className="font-['Montserrat',Helvetica] font-bold text-white text-lg md:text-xl lg:text-2xl mb-3 md:mb-4">
+              <h3 className="font-['Roboto',Helvetica] font-bold text-white text-lg md:text-xl lg:text-2xl mb-3 md:mb-4">
                 Next Steps:
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 text-left">
@@ -64,10 +64,10 @@ export const ThankYou = (): JSX.Element => {
                     <span className="text-white font-bold text-sm">1</span>
                   </div>
                   <div>
-                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
+                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
                       Watch for a call
                     </h4>
-                    <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                    <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
                       Watch for a call from our Baytown office (281-303-8800).
                     </p>
                   </div>
@@ -78,10 +78,10 @@ export const ThankYou = (): JSX.Element => {
                     <span className="text-white font-bold text-sm">2</span>
                   </div>
                   <div>
-                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
+                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
                       Avoid speaking with insurance
                     </h4>
-                    <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                    <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
                       Avoid speaking to the other driver's insurance company until we have evaluated your case.
                     </p>
                   </div>
@@ -92,10 +92,10 @@ export const ThankYou = (): JSX.Element => {
                     <span className="text-white font-bold text-sm">3</span>
                   </div>
                   <div>
-                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
+                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
                       Gather documents
                     </h4>
-                    <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                    <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
                       Gather any relevant documents (police reports, medical bills, or photos of the accident scene).
                     </p>
                   </div>
@@ -111,10 +111,10 @@ export const ThankYou = (): JSX.Element => {
                   </svg>
                 </div>
                 <div className="ml-2 md:ml-3">
-                  <h4 className="font-['Montserrat',Helvetica] font-bold text-[#d44500] text-sm md:text-base">
+                  <h4 className="font-['Roboto',Helvetica] font-bold text-[#d44500] text-sm md:text-base">
                     Need to reach us before we call?
                   </h4>
-                  <p className="font-['Montserrat',Helvetica] text-[#222125] text-xs md:text-sm mt-1">
+                  <p className="font-['Roboto',Helvetica] text-[#222125] text-xs md:text-sm mt-1">
                     Call us anytime at <a href="tel:2813038800" className="font-bold underline">281-303-8800</a> or email us at mvancleave@lawmdv.com. We're ready to help you get started.
                   </p>
                 </div>
@@ -127,10 +127,10 @@ export const ThankYou = (): JSX.Element => {
         <section className="w-full bg-[#00417b] py-12 md:py-16">
           <div className="container mx-auto max-w-4xl px-4">
             <div className="text-center mb-8 md:mb-12">
-              <h2 className="font-['Montserrat',Helvetica] font-bold text-white text-xl md:text-2xl lg:text-3xl mb-3 md:mb-4">
+              <h2 className="font-['Roboto',Helvetica] font-bold text-white text-xl md:text-2xl lg:text-3xl mb-3 md:mb-4">
                 Contact Information
               </h2>
-              <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-base md:text-lg">
+              <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-base md:text-lg">
                 We're here when you need us most
               </p>
             </div>
@@ -140,16 +140,16 @@ export const ThankYou = (): JSX.Element => {
                 <div className="w-12 md:w-16 h-12 md:h-16 bg-[#d44500] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
                   <Phone className="w-6 md:w-8 h-6 md:h-8 text-white" />
                 </div>
-                <h3 className="font-['Montserrat',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
+                <h3 className="font-['Roboto',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
                   Call Now
                 </h3>
                 <a
                   href="tel:2813038800"
-                  className="font-['Montserrat',Helvetica] font-bold text-[#d44500] text-lg md:text-xl hover:text-white transition-colors duration-300"
+                  className="font-['Roboto',Helvetica] font-bold text-[#d44500] text-lg md:text-xl hover:text-white transition-colors duration-300"
                 >
                   281-303-8800
                 </a>
-                <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm mt-1 md:mt-2">
+                <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs md:text-sm mt-1 md:mt-2">
                   Available to help
                 </p>
               </div>
@@ -158,10 +158,10 @@ export const ThankYou = (): JSX.Element => {
                 <div className="w-12 md:w-16 h-12 md:h-16 bg-[#d44500] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
                   <MapPin className="w-6 md:w-8 h-6 md:h-8 text-white" />
                 </div>
-                <h3 className="font-['Montserrat',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
+                <h3 className="font-['Roboto',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
                   Office Location
                 </h3>
-                <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-sm md:text-base">
+                <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-sm md:text-base">
                   1300 Rollingbrook Drive<br />
                   Suite 410 Baytown, TX 77521
                 </p>
@@ -171,17 +171,17 @@ export const ThankYou = (): JSX.Element => {
                 <div className="w-12 md:w-16 h-12 md:h-16 bg-[#d44500] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
                   <Clock className="w-6 md:w-8 h-6 md:h-8 text-white" />
                 </div>
-                <h3 className="font-['Montserrat',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
+                <h3 className="font-['Roboto',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
                   Email
                 </h3>
-                <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-sm md:text-base">
+                <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-sm md:text-base">
                   mvancleave@lawmdv.com
                 </p>
               </div>
             </div>
 
             <div className="text-center mt-8 md:mt-12 pt-6 md:pt-8 border-t border-white/20">
-              <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-sm md:text-base mb-3 md:mb-4">
+              <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-sm md:text-base mb-3 md:mb-4">
                 Serving Baytown, Channelview, La Porte, Highlands, Mont Belvieu & Greater Houston Area
               </p>
               <a
@@ -197,10 +197,10 @@ export const ThankYou = (): JSX.Element => {
         {/* Footer */}
         <section className="w-full bg-black py-6 md:py-8">
           <div className="container mx-auto max-w-4xl px-4 text-center">
-            <p className="font-['Montserrat',Helvetica] text-gray-400 text-xs md:text-sm mb-2">
+            <p className="font-['Roboto',Helvetica] text-gray-400 text-xs md:text-sm mb-2">
               © 2025 Law Offices of Mark D. VanCleave, PLLC. All rights reserved.
             </p>
-            <p className="font-['Montserrat',Helvetica] text-gray-500 text-xs leading-[16px]">
+            <p className="font-['Roboto',Helvetica] text-gray-500 text-xs leading-[16px]">
               The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.
             </p>
           </div>

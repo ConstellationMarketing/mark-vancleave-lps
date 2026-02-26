@@ -45,10 +45,10 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
       <div className="flex flex-col items-center max-w-6xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-8 md:mb-16">
-          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-4 md:mb-6 [font-family:'Montserrat',Helvetica] tracking-[0] leading-[28px] md:leading-[35px] lg:leading-[39.6px]">
+          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-4 md:mb-6 [font-family:'Roboto',Helvetica] tracking-[0] leading-[28px] md:leading-[35px] lg:leading-[39.6px]">
             Focused Auto Accident &amp; Personal Injury Representation
           </h2>
-          <p className="font-medium text-base md:text-lg lg:text-xl text-white [font-family:'Montserrat',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8 max-w-4xl">
+          <p className="font-medium text-base md:text-lg lg:text-xl text-white [font-family:'Roboto',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8 max-w-4xl">
             We understand the profound impact an injury has on your life and your family. Our firm provides dedicated, one-on-one guidance to protect your rights after a crash.
           </p>
         </div>
@@ -77,7 +77,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
                   </div>
                   
                   <div className="ml-0 md:ml-16">
-                    <p className="font-medium text-sm md:text-base lg:text-lg text-white [font-family:'Montserrat',Helvetica] tracking-[0] leading-[20px] md:leading-[24px] lg:leading-[27.2px] mb-2 md:mb-3">
+                    <p className="font-medium text-sm md:text-base lg:text-lg text-white [font-family:'Roboto',Helvetica] tracking-[0] leading-[20px] md:leading-[24px] lg:leading-[27.2px] mb-2 md:mb-3">
                       {service.description}
                     </p>
                     
@@ -86,7 +86,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
                         {service.bulletPoints.map((point, pointIndex) => (
                           <li key={pointIndex} className="flex items-start gap-2">
                             <span className="text-[#d44500] mt-2 flex-shrink-0">•</span>
-                            <span className="font-medium text-sm md:text-base text-white [font-family:'Montserrat',Helvetica] leading-[20px] md:leading-[24px]">
+                            <span className="font-medium text-sm md:text-base text-white [font-family:'Roboto',Helvetica] leading-[20px] md:leading-[24px]">
                               {point}
                             </span>
                           </li>
@@ -95,7 +95,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
                     )}
                     
                     {service.footer && (
-                      <p className="font-medium text-sm md:text-base text-[#cbd5e0] [font-family:'Montserrat',Helvetica] tracking-[0] leading-[20px] md:leading-[24px] mt-2 md:mt-3">
+                      <p className="font-medium text-sm md:text-base text-[#cbd5e0] [font-family:'Roboto',Helvetica] tracking-[0] leading-[20px] md:leading-[24px] mt-2 md:mt-3">
                         {service.footer}
                       </p>
                     )}
@@ -108,7 +108,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
 
         {/* Call to Action */}
         <div className="text-center max-w-4xl">
-          <p className="font-medium text-base md:text-lg lg:text-xl text-white mb-6 md:mb-8 [font-family:'Montserrat',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8">
+          <p className="font-medium text-base md:text-lg lg:text-xl text-white mb-6 md:mb-8 [font-family:'Roboto',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8">
             No two accidents are the same. We take the time to listen to your situation and build a strategy focused on your recovery.
           </p>
           <Button className="bg-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] px-8 pt-[30px] pb-[30px] transition-colors duration-300">

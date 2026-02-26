@@ -44,11 +44,11 @@ export const WhyChooseUsSection = (): JSX.Element => {
       <div className="container mx-auto max-w-6xl px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[50px]">
+          <h2 className="text-5xl font-bold text-[#091626] text-center mb-6 font-['Roboto',Helvetica] leading-[50px]">
             Why Choose Us for Your Injury Claim
           </h2>
           <div className="w-24 h-1 bg-[#d44500] mx-auto mb-8"></div>
-          <p className="text-xl text-[#222125] font-['Montserrat',Helvetica] max-w-3xl mx-auto leading-[30px]">
+          <p className="text-xl text-[#222125] font-['Roboto',Helvetica] max-w-3xl mx-auto leading-[30px]">
             No two accidents are the same, and no two injuries should be treated the same. We take the time to listen to your specific situation before formulating a strategy—whether that requires a swift settlement negotiation or an aggressive court battle.
           </p>
         </div>
@@ -66,7 +66,7 @@ export const WhyChooseUsSection = (): JSX.Element => {
                   </div>
 
                   {/* Title */}
-                  <h3 className="font-['Montserrat',Helvetica] font-bold text-[#091626] text-2xl text-center tracking-[0] leading-[32px] mb-4">
+                  <h3 className="font-['Roboto',Helvetica] font-bold text-[#091626] text-2xl text-center tracking-[0] leading-[32px] mb-4">
                     {service.title}
                   </h3>
 
@@ -96,10 +96,10 @@ export const WhyChooseUsSection = (): JSX.Element => {
 
         {/* Bottom CTA */}
         <div className="text-center bg-[#00417b] rounded-2xl p-12">
-          <h3 className="text-3xl font-bold text-white mb-4 font-['Montserrat',Helvetica]">
+          <h3 className="text-3xl font-bold text-white mb-4 font-['Roboto',Helvetica]">
             Experience the Difference
           </h3>
-          <p className="text-xl text-[#cbd5e0] mb-8 font-['Montserrat',Helvetica] max-w-2xl mx-auto">
+          <p className="text-xl text-[#cbd5e0] mb-8 font-['Roboto',Helvetica] max-w-2xl mx-auto">
             Because we are located right here in Baytown, we understand the local roadways, industrial areas, and community. We believe in full transparency and fighting for your rights with aggressive advocacy and compassionate client care.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -116,10 +116,10 @@ export const WhyChooseUsSection = (): JSX.Element => {
               Request Consultation
             </button>
             <div className="text-center">
-              <p className="text-[#cbd5e0] font-['Montserrat',Helvetica] text-lg">
+              <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-lg">
                 281-303-8800
               </p>
-              <p className="text-[#cbd5e0] font-['Montserrat',Helvetica] text-sm">
+              <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-sm">
                 No Upfront Fees • Contingency Basis
               </p>
             </div>

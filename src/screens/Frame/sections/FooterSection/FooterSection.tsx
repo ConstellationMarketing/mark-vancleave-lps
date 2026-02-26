@@ -10,7 +10,7 @@ export const FooterSection = (): JSX.Element => {
             {/* Left Side - Contact Info */}
             <div className="bg-black rounded-lg p-6 md:p-8">
               <div className="text-center mb-6 md:mb-8">
-                <h2 className="font-medium text-white text-xl md:text-2xl lg:text-[33px] font-['Montserrat',Helvetica] leading-[24px] md:leading-[30px] lg:leading-[46.2px] mb-3 md:mb-4">
+                <h2 className="font-medium text-white text-xl md:text-2xl lg:text-[33px] font-['Roboto',Helvetica] leading-[24px] md:leading-[30px] lg:leading-[46.2px] mb-3 md:mb-4">
                   CONNECT WITH US
                 </h2>
                 <div className="w-12 md:w-16 h-1 bg-[#d44500] mx-auto"></div>
@@ -23,10 +23,10 @@ export const FooterSection = (): JSX.Element => {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
                       Office Location
                     </h4>
-                    <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
+                    <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
                       1300 Rollingbrook Drive<br />
                       Suite 410 Baytown, TX 77521
                     </p>
@@ -38,12 +38,12 @@ export const FooterSection = (): JSX.Element => {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
                       Call Now
                     </h4>
                     <a
                       href="tel:2813038800"
-                      className="font-['Montserrat',Helvetica] font-bold text-[#d44500] text-lg md:text-xl hover:text-white transition-colors duration-300"
+                      className="font-['Roboto',Helvetica] font-bold text-[#d44500] text-lg md:text-xl hover:text-white transition-colors duration-300"
                     >
                       281-303-8800
                     </a>
@@ -55,10 +55,10 @@ export const FooterSection = (): JSX.Element => {
                     <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
                       Contact Email
                     </h4>
-                    <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
+                    <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
                       mvancleave@lawmdv.com
                     </p>
                   </div>
@@ -67,10 +67,10 @@ export const FooterSection = (): JSX.Element => {
 
               {/* Service Areas */}
               <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
-                <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-3 md:mb-4">
+                <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-3 md:mb-4">
                   Serving Areas
                 </h4>
-                <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
                   Baytown, Channelview, La Porte, Highlands, Mont Belvieu & Greater Houston Area
                 </p>
               </div>
@@ -79,10 +79,10 @@ export const FooterSection = (): JSX.Element => {
             {/* Right Side - Contact Form */}
             <div id="contact-form" className="bg-white rounded-lg p-6 md:p-8 shadow-xl">
               <div className="mb-6 md:mb-8">
-                <h3 className="font-['Montserrat',Helvetica] font-bold text-[#091626] text-xl md:text-2xl mb-3 md:mb-4">
+                <h3 className="font-['Roboto',Helvetica] font-bold text-[#091626] text-xl md:text-2xl mb-3 md:mb-4">
                   Arrange A Free Initial Consultation
                 </h3>
-                <p className="font-['Montserrat',Helvetica] text-[#222125] text-sm md:text-base leading-[20px] md:leading-[24px]">
+                <p className="font-['Roboto',Helvetica] text-[#222125] text-sm md:text-base leading-[20px] md:leading-[24px]">
                   You do not have to handle the insurance companies alone. We are ready to help. Submit the form below and we'll contact you shortly.
                 </p>
               </div>
@@ -154,7 +154,7 @@ export const FooterSection = (): JSX.Element => {
                 <input type="hidden" name="timestamp" id="timestamp" />
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                   <div>
-                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
+                    <label className="block font-['Roboto',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
                       First Name *
                     </label>
                     <input
@@ -166,7 +166,7 @@ export const FooterSection = (): JSX.Element => {
                     />
                   </div>
                   <div>
-                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
+                    <label className="block font-['Roboto',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
                       Last Name *
                     </label>
                     <input
@@ -181,7 +181,7 @@ export const FooterSection = (): JSX.Element => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                   <div>
-                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
+                    <label className="block font-['Roboto',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
                       Phone *
                     </label>
                     <input
@@ -193,7 +193,7 @@ export const FooterSection = (): JSX.Element => {
                     />
                   </div>
                   <div>
-                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
+                    <label className="block font-['Roboto',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
                       Email *
                     </label>
                     <input
@@ -207,7 +207,7 @@ export const FooterSection = (): JSX.Element => {
                 </div>
 
                 <div>
-                  <label className="block font-['Montserrat',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
+                  <label className="block font-['Roboto',Helvetica] font-medium text-[#091626] text-xs md:text-sm mb-1 md:mb-2">
                     Describe Your Accident *
                   </label>
                   <textarea
@@ -226,7 +226,7 @@ export const FooterSection = (): JSX.Element => {
                   REQUEST A CONSULTATION
                 </button>
 
-                <p className="text-xs text-gray-500 text-center font-['Montserrat',Helvetica] leading-[14px] md:leading-[16px]">
+                <p className="text-xs text-gray-500 text-center font-['Roboto',Helvetica] leading-[14px] md:leading-[16px]">
                   By submitting this form, you agree to be contacted by Constellation Law regarding your case. All information is confidential.
                 </p>
               </form>
@@ -236,10 +236,10 @@ export const FooterSection = (): JSX.Element => {
           {/* Bottom Footer */}
           <div className="mt-8 md:mt-16 pt-6 md:pt-8 border-t border-white/20">
             <div className="text-center">
-              <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px] mb-3 md:mb-4">
+              <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px] mb-3 md:mb-4">
                 © 2025 Law Offices of Mark D. VanCleave, PLLC. All rights reserved.
               </p>
-              <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs leading-[14px] md:leading-[16px]">
+              <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs leading-[14px] md:leading-[16px]">
                 The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
               </p>
             </div>

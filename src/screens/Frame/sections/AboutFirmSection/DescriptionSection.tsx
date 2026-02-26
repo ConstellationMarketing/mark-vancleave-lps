@@ -43,7 +43,7 @@ export const DescriptionSection = (): JSX.Element => {
             About Constellation Law
           </h2>
           <div className="w-24 h-1 bg-[#ff8a00] mx-auto mb-8"></div>
-          <h3 className="text-2xl font-bold text-[#182246] mb-8 font-['Montserrat',Helvetica] leading-[32px]">
+          <h3 className="text-2xl font-bold text-[#182246] mb-8 font-['Roboto',Helvetica] leading-[32px]">
             Our team is here for one reason: you.
           </h3>
         </div>
@@ -57,10 +57,10 @@ export const DescriptionSection = (): JSX.Element => {
                 <div className="w-16 h-16 bg-[#ff8a00] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#e67d00] transition-colors duration-300">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-lg font-bold text-[#182246] mb-2 font-['Montserrat',Helvetica]">
+                <h4 className="text-lg font-bold text-[#182246] mb-2 font-['Roboto',Helvetica]">
                   {highlight.title}
                 </h4>
-                <p className="text-sm text-gray-600 font-['Montserrat',Helvetica]">
+                <p className="text-sm text-gray-600 font-['Roboto',Helvetica]">
                   {highlight.description}
                 </p>
               </div>
@@ -73,7 +73,7 @@ export const DescriptionSection = (): JSX.Element => {
           {paragraphs.map((paragraph, index) => (
             <div key={`paragraph-${index}`} className="mb-8">
               <div className="bg-white rounded-lg shadow-sm border-l-4 border-[#ff8a00] p-6 hover:shadow-md transition-shadow duration-300">
-                <p className="text-lg font-medium text-black font-['Montserrat',Helvetica] leading-[28.8px]">
+                <p className="text-lg font-medium text-black font-['Roboto',Helvetica] leading-[28.8px]">
                   {paragraph}
                 </p>
               </div>
@@ -86,7 +86,7 @@ export const DescriptionSection = (): JSX.Element => {
           <h3 className="text-3xl font-bold text-white mb-4 font-['Playfair_Display',Helvetica]">
             Ready to Discuss Your Case?
           </h3>
-          <p className="text-xl text-[#cbd5e0] mb-8 font-['Montserrat',Helvetica] max-w-2xl mx-auto">
+          <p className="text-xl text-[#cbd5e0] mb-8 font-['Roboto',Helvetica] max-w-2xl mx-auto">
             The phone call is free. Our Springfield, Illinois law firm would love to hear your story and use our experience to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -102,7 +102,7 @@ export const DescriptionSection = (): JSX.Element => {
             >
               Request Consultation
             </button>
-            <span className="text-[#cbd5e0] font-['Montserrat',Helvetica]">
+            <span className="text-[#cbd5e0] font-['Roboto',Helvetica]">
               Available 24/7 • Free Consultation
             </span>
           </div>
