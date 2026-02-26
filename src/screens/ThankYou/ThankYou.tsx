@@ -115,7 +115,7 @@ export const ThankYou = (): JSX.Element => {
                     Need to reach us before we call?
                   </h4>
                   <p className="font-['Roboto',Helvetica] text-[#222125] text-xs md:text-sm mt-1">
-                    Call us anytime at <a href="tel:2813038800" className="font-bold underline">281-303-8800</a> or email us at mvancleave@lawmdv.com. We're ready to help you get started.
+                    Call us anytime at <a href="tel:2813038800" className="font-bold underline">281-303-8800</a>. We're ready to help you get started.
                   </p>
                 </div>
               </div>
@@ -167,17 +167,6 @@ export const ThankYou = (): JSX.Element => {
                 </p>
               </div>
 
-              <div className="text-center">
-                <div className="w-12 md:w-16 h-12 md:h-16 bg-[#d44500] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
-                  <Clock className="w-6 md:w-8 h-6 md:h-8 text-white" />
-                </div>
-                <h3 className="font-['Montserrat',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
-                  Email
-                </h3>
-                <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-sm md:text-base">
-                  mvancleave@lawmdv.com
-                </p>
-              </div>
             </div>
 
             <div className="text-center mt-8 md:mt-12 pt-6 md:pt-8 border-t border-white/20">
