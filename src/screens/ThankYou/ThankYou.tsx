@@ -25,7 +25,7 @@ export const ThankYou = (): JSX.Element => {
                 >
                   (281) 303-8800
                 </a>
-                <p className="mt-1 [font-family:'Roboto',Helvetica] font-medium text-white text-[7px] md:text-[9px] text-center tracking-[0] leading-[10px] md:leading-[14px]">
+                <p className="mt-1 [font-family:'Roboto',Helvetica] font-medium text-white text-[9px] md:text-[12px] text-center tracking-[1.5px] md:tracking-[2px] leading-[12px] md:leading-[16px]">
                   CALL YOUR ATTORNEY
                 </p>
               </div>
