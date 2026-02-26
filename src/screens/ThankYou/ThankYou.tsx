@@ -8,17 +8,21 @@ export const ThankYou = (): JSX.Element => {
         {/* Header Section */}
         <section className="relative w-full min-h-[150px] md:h-[200px] bg-[#00417b]">
           {/* Navigation Bar */}
-          <div className="relative w-full h-[60px] md:h-[83px] bg-white">
-            <div className="absolute w-[180px] md:w-[250px] h-6 md:h-9 top-[17px] md:top-[23px] left-4 md:left-24">
-              <img
-                src="/logo.webp"
-                alt="Law Offices of Mark D. VanCleave, PLLC"
-                className="w-full h-full object-contain"
-              />
+          <div className="w-full flex flex-col md:flex-row md:h-[83px] bg-white">
+            {/* Logo Section */}
+            <div className="w-full md:w-auto md:flex-1 h-[60px] md:h-[83px] bg-white flex items-center justify-center md:justify-start md:pl-24">
+              <div className="w-[180px] md:w-[250px] h-6 md:h-9">
+                <img
+                  src="/logo.webp"
+                  alt="Law Offices of Mark D. VanCleave, PLLC"
+                  className="w-full h-full object-contain"
+                />
+              </div>
             </div>
 
-            <div className="absolute h-[60px] md:h-[83px] top-0 right-0 bg-[#00417b] flex items-center">
-              <div className="w-[180px] md:w-[280px] h-[60px] md:h-[83px] bg-[#00417b] flex flex-col items-center justify-center px-2">
+            {/* CTA Section */}
+            <div className="w-full md:w-auto h-[60px] md:h-[83px] bg-[#00417b] flex items-center justify-center px-2">
+              <div className="flex flex-col items-center justify-center">
                 <a
                   href="tel:2813038800"
                   className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Roboto',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
