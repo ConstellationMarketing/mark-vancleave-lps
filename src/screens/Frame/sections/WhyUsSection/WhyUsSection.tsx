@@ -13,19 +13,19 @@ export const WhyUsSection = (): JSX.Element => {
 
           <div className="w-full lg:w-[653px] space-y-4 md:space-y-6 text-center lg:text-left">
             <h2 className="font-medium text-2xl md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
-              Meet Attorney Mark VanCleave
+              About Law Offices of Mark D. VanCleave, PLLC
             </h2>
 
             <p className="font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] [font-family:'Roboto',Helvetica]">
-              Mark VanCleave is the founding attorney of the Law Offices of Mark D. VanCleave, PLLC. With over 25 years of legal experience, Mark has dedicated his career to guiding individuals through the overwhelming aftermath of severe accidents.
+              The Law Offices of Mark D. VanCleave, PLLC is a Baytown, TX-based law firm dedicated to standing up for those harmed by the negligence of others. We understand that people facing a severe injury need more than just legal advice—they need a steadfast advocate.
             </p>
 
             <p className="font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] [font-family:'Roboto',Helvetica]">
-              Mark's reputation for aggressive, effective advocacy in tough personal injury cases is well-established throughout Baytown. He understands the many ways that an injury can affect you and your loved ones, and he brings a fierce determination to prevail for his clients against massive insurance companies and corporate legal teams.
+              Our firm was built on a simple philosophy: your victory is our victory. When you work with us, you partner with a lawyer who takes your case personally. We leverage over 25 years of experience to evaluate the facts, negotiate with insurance companies, and fight for your rights. We offer clear, honest advice so that you are empowered to make the best decisions regarding your recovery and your future.
             </p>
 
             <p className="font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] [font-family:'Roboto',Helvetica]">
-              While he is tough in negotiations and in court, Mark treats his clients with respect and compassion. He ensures that every client understands their rights and is never taken advantage of by the legal system.
+              Located on Rollingbrook Drive in Baytown, we proudly serve injured clients throughout the greater Houston area's eastern suburbs, focusing closely on our immediate neighbors.
             </p>
 
             <Button
