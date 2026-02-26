@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
-import { Car, Truck, AlertCircle, Motorcycle } from "lucide-react";
+import { Car, Truck, AlertCircle, Bike } from "lucide-react";
 
 export const CriminalDefenseServicesSection = (): JSX.Element => {
   // Services data for mapping with icons
@@ -31,7 +31,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
       footer: ""
     },
     {
-      icon: Motorcycle,
+      icon: Bike,
       title: "Motorcycle Accidents",
       subtitle: "",
       description: "Compassionate advocacy for riders facing catastrophic injuries and biased insurance adjusters.",
