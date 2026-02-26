@@ -10,7 +10,7 @@ export const FooterSection = (): JSX.Element => {
             {/* Left Side - Contact Info */}
             <div className="bg-black rounded-lg p-6 md:p-8">
               <div className="text-center mb-6 md:mb-8">
-                <h2 className="font-medium text-white text-xl md:text-2xl lg:text-[33px] font-['Roboto',Helvetica] leading-[24px] md:leading-[30px] lg:leading-[46.2px] mb-3 md:mb-4">
+                <h2 className="font-medium text-white text-xl md:text-2xl lg:text-[33px] font-['Montserrat',Helvetica] leading-[24px] md:leading-[30px] lg:leading-[46.2px] mb-3 md:mb-4">
                   CONNECT WITH US
                 </h2>
                 <div className="w-12 md:w-16 h-1 bg-[#d44500] mx-auto"></div>
@@ -23,7 +23,7 @@ export const FooterSection = (): JSX.Element => {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
                       Office Location
                     </h4>
                     <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
@@ -38,7 +38,7 @@ export const FooterSection = (): JSX.Element => {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
                       Call Now
                     </h4>
                     <a
@@ -55,7 +55,7 @@ export const FooterSection = (): JSX.Element => {
                     <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
                       Contact Email
                     </h4>
                     <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
@@ -67,7 +67,7 @@ export const FooterSection = (): JSX.Element => {
 
               {/* Service Areas */}
               <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
-                <h4 className="font-['Roboto',Helvetica] font-bold text-white text-base md:text-lg mb-3 md:mb-4">
+                <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-3 md:mb-4">
                   Serving Areas
                 </h4>
                 <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
@@ -79,7 +79,7 @@ export const FooterSection = (): JSX.Element => {
             {/* Right Side - Contact Form */}
             <div id="contact-form" className="bg-white rounded-lg p-6 md:p-8 shadow-xl">
               <div className="mb-6 md:mb-8">
-                <h3 className="font-['Roboto',Helvetica] font-bold text-[#091626] text-xl md:text-2xl mb-3 md:mb-4">
+                <h3 className="font-['Montserrat',Helvetica] font-bold text-[#091626] text-xl md:text-2xl mb-3 md:mb-4">
                   Arrange A Free Initial Consultation
                 </h3>
                 <p className="font-['Roboto',Helvetica] text-[#222125] text-sm md:text-base leading-[20px] md:leading-[24px]">

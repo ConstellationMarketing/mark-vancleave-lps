@@ -38,7 +38,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
     <section className="w-full bg-white py-8">
       <div className="max-w-[1130px] mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-[#091626] mb-4 font-['Roboto',Helvetica]">
+          <h2 className="text-3xl font-bold text-[#091626] mb-4 font-['Montserrat',Helvetica]">
             What Our Clients Say
           </h2>
           <div className="w-16 h-1 bg-[#d44500] mx-auto mb-4"></div>

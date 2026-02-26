@@ -7,7 +7,7 @@ export const CallToActionMainSection = (): JSX.Element => {
       <div className="container mx-auto max-w-4xl flex flex-col items-center justify-center gap-6 md:gap-8 px-4">
         {/* Main Heading */}
         <div className="text-center">
-          <h2 className="font-['Roboto',Helvetica] font-bold text-2xl md:text-3xl lg:text-5xl text-white text-center leading-[28px] md:leading-[35px] lg:leading-[50px] mb-3 md:mb-4">
+          <h2 className="font-['Montserrat',Helvetica] font-bold text-2xl md:text-3xl lg:text-5xl text-white text-center leading-[28px] md:leading-[35px] lg:leading-[50px] mb-3 md:mb-4">
             Discuss Your Options With an Experienced Personal Injury Attorney
           </h2>
           <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg lg:text-xl text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] lg:leading-[30px] max-w-2xl mx-auto">
@@ -38,7 +38,7 @@ export const CallToActionMainSection = (): JSX.Element => {
         {/* Trust Indicators */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
           <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Roboto',Helvetica]">
+            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Montserrat',Helvetica]">
               25+
             </div>
             <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">
@@ -46,7 +46,7 @@ export const CallToActionMainSection = (): JSX.Element => {
             </div>
           </div>
           <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Roboto',Helvetica]">
+            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Montserrat',Helvetica]">
               Local
             </div>
             <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">
@@ -54,7 +54,7 @@ export const CallToActionMainSection = (): JSX.Element => {
             </div>
           </div>
           <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Roboto',Helvetica]">
+            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Montserrat',Helvetica]">
               Aggressive
             </div>
             <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">

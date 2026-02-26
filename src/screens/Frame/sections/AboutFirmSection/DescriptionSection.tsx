@@ -43,7 +43,7 @@ export const DescriptionSection = (): JSX.Element => {
             About Constellation Law
           </h2>
           <div className="w-24 h-1 bg-[#ff8a00] mx-auto mb-8"></div>
-          <h3 className="text-2xl font-bold text-[#182246] mb-8 font-['Roboto',Helvetica] leading-[32px]">
+          <h3 className="text-2xl font-bold text-[#182246] mb-8 font-['Montserrat',Helvetica] leading-[32px]">
             Our team is here for one reason: you.
           </h3>
         </div>
@@ -57,7 +57,7 @@ export const DescriptionSection = (): JSX.Element => {
                 <div className="w-16 h-16 bg-[#ff8a00] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#e67d00] transition-colors duration-300">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-lg font-bold text-[#182246] mb-2 font-['Roboto',Helvetica]">
+                <h4 className="text-lg font-bold text-[#182246] mb-2 font-['Montserrat',Helvetica]">
                   {highlight.title}
                 </h4>
                 <p className="text-sm text-gray-600 font-['Roboto',Helvetica]">

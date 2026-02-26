@@ -44,7 +44,7 @@ export const AboutUsSection = (): JSX.Element => {
         {/* Trust Indicators */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
           <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ff8a00] font-['Roboto',Helvetica]">
+            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ff8a00] font-['Montserrat',Helvetica]">
               Years of Experience
             </div>
             <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">
@@ -52,7 +52,7 @@ export const AboutUsSection = (): JSX.Element => {
             </div>
           </div>
           <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ff8a00] font-['Roboto',Helvetica]">
+            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ff8a00] font-['Montserrat',Helvetica]">
               ⭐⭐⭐⭐⭐
             </div>
             <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">
@@ -60,7 +60,7 @@ export const AboutUsSection = (): JSX.Element => {
             </div>
           </div>
           <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ff8a00] font-['Roboto',Helvetica]">
+            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#ff8a00] font-['Montserrat',Helvetica]">
               100%
             </div>
             <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">

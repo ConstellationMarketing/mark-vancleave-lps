@@ -35,7 +35,7 @@ export const CallToActionSection = (): JSX.Element => {
           Trusted Criminal Defense in Springfield
         </p>
 
-        <h1 className="mt-4 md:mt-[30px] [text-shadow:0px_0px_16.5px_#00000066] [font-family:'Roboto',Helvetica] font-medium text-white text-2xl md:text-4xl lg:text-[55px] tracking-[0] leading-[28px] md:leading-[44px] lg:leading-[60.5px] text-center md:text-left">
+        <h1 className="mt-4 md:mt-[30px] [text-shadow:0px_0px_16.5px_#00000066] [font-family:'Montserrat',Helvetica] font-medium text-white text-2xl md:text-4xl lg:text-[55px] tracking-[0] leading-[28px] md:leading-[44px] lg:leading-[60.5px] text-center md:text-left">
           Experienced. Respected. Relentless in Your Defense.
         </h1>
 

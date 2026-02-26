@@ -35,7 +35,7 @@ export const HeroSection = (): JSX.Element => {
           Injured in a Baytown Auto Accident? We Can Help You Seek Fair Compensation.
         </h1>
 
-        <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Roboto',Helvetica] font-bold text-white text-[50px] leading-[1.1] text-center md:text-left">
+        <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Montserrat',Helvetica] font-bold text-white text-[50px] leading-[1.1] text-center md:text-left">
           With over 25 years of experience, we provide empathetic, clear, and reassuring legal support for victims of auto and 18-wheeler accidents in our local community.
         </p>
 
