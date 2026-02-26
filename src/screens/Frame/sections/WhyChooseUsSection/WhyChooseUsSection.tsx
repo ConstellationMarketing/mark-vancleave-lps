@@ -49,6 +49,9 @@ export const WhyChooseUsSection = (): JSX.Element => {
           </h2>
           <div className="w-24 h-1 bg-[#d44500] mx-auto mb-8"></div>
           <p className="text-xl text-[#222125] font-['Roboto',Helvetica] max-w-3xl mx-auto leading-[30px]">
+            A local firm dedicated to providing aggressive representation with compassionate client care.
+          </p>
+          <p className="text-xl text-[#222125] font-['Roboto',Helvetica] max-w-3xl mx-auto leading-[30px] mt-4">
             No two accidents are the same, and no two injuries should be treated the same. We take the time to listen to your specific situation before formulating a strategy—whether that requires a swift settlement negotiation or an aggressive court battle.
           </p>
         </div>
