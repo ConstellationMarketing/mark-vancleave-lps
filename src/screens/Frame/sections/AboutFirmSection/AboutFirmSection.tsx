@@ -90,13 +90,13 @@ export const AboutFirmSection = (): JSX.Element => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="tel:2813038800"
-              className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 py-3 transition-colors duration-300"
+              className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 pt-[10px] pb-[10px] transition-colors duration-300"
             >
               Call Now: 281-303-8800
             </a>
             <button
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 py-3 transition-colors duration-300"
+              className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 pt-[10px] pb-[10px] transition-colors duration-300"
             >
               Request Consultation
             </button>
