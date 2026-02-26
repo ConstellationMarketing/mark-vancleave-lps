@@ -6,7 +6,7 @@ export const ThankYou = (): JSX.Element => {
     <div className="w-full bg-white">
       <div className="flex flex-col">
         {/* Header Section */}
-        <section className="relative w-full min-h-[150px] md:h-[200px] bg-[#00417b]">
+        <section className="relative w-full min-h-[150px] md:min-h-[200px] bg-[#00417b]">
           {/* Navigation Bar */}
           <div className="w-full flex flex-col md:flex-row md:h-[83px] bg-white">
             {/* Logo Section */}
