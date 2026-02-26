@@ -139,7 +139,7 @@ export const ThankYou = (): JSX.Element => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 justify-items-center">
               <div className="text-center">
                 <div className="w-12 md:w-16 h-12 md:h-16 bg-[#d44500] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
                   <Phone className="w-6 md:w-8 h-6 md:h-8 text-white" />
