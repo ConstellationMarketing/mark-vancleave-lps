@@ -37,11 +37,11 @@ export const AboutFirmSection = (): JSX.Element => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[50px]">
+          <h2 className="text-[24px] md:text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[28px] md:leading-[50px]">
             About Law Offices of Mark D. VanCleave, PLLC
           </h2>
           <div className="w-24 h-1 bg-[#d44500] mx-auto mb-8"></div>
-          <h3 className="text-2xl font-bold text-[#00417b] mb-8 font-['Montserrat',Helvetica] leading-[32px]">
+          <h3 className="text-[16px] md:text-2xl font-bold text-[#00417b] mb-8 font-['Montserrat',Helvetica] leading-[20px] md:leading-[32px]">
             Standing up for those harmed by the negligence of others
           </h3>
         </div>
