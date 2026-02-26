@@ -3,7 +3,7 @@ import { Button } from "../../../../components/ui/button";
 
 export const HeroSection = (): JSX.Element => {
   return (
-    <section className="relative w-full bg-blend-darken [background:url(https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg)_50%_50%_/_cover,linear-gradient(0deg,rgba(0,0,0,0.75)_0%,rgba(0,0,0,0.75)_100%)]">
+    <section className="relative w-full bg-blend-darken [background:url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F3dbdcf2e6efd470b824436ceb2b1f49c?format=webp&width=800&height=1200)_50%_50%_/_cover,linear-gradient(0deg,rgba(0,0,0,0.75)_0%,rgba(0,0,0,0.75)_100%)]">
       {/* Navigation Bar */}
       <div className="relative w-full h-[60px] md:h-[83px] bg-white">
         <div className="absolute w-[180px] md:w-[250px] h-6 md:h-9 top-[17px] md:top-[23px] left-4 md:left-24">
