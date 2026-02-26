@@ -10,7 +10,7 @@ export const FooterSection = (): JSX.Element => {
             {/* Left Side - Contact Info */}
             <div className="bg-black rounded-lg p-6 md:p-8">
               <div className="text-center mb-6 md:mb-8">
-                <h2 className="font-medium text-white text-xl md:text-2xl lg:text-[33px] font-['Montserrat',Helvetica] leading-[24px] md:leading-[30px] lg:leading-[46.2px] mb-3 md:mb-4">
+                <h2 className="font-bold text-white text-xl md:text-2xl lg:text-[33px] font-['Montserrat',Helvetica] leading-[24px] md:leading-[30px] lg:leading-[46.2px] mb-3 md:mb-4">
                   CONNECT WITH US
                 </h2>
                 <div className="w-12 md:w-16 h-1 bg-[#d44500] mx-auto"></div>
