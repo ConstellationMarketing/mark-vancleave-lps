@@ -8,10 +8,16 @@ export const CallToActionMainSection = (): JSX.Element => {
         {/* Main Heading */}
         <div className="text-center">
           <h2 className="font-['Montserrat',Helvetica] font-bold text-2xl md:text-3xl lg:text-5xl text-white text-center leading-[28px] md:leading-[35px] lg:leading-[50px] mb-3 md:mb-4">
-            Discuss Your Options With an Experienced Personal Injury Attorney
+            Meet Attorney Mark VanCleave
           </h2>
-          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg lg:text-xl text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] lg:leading-[30px] max-w-2xl mx-auto">
-            Speak directly with a dedicated local legal team that treats you with respect and compassion, not as just another file number.
+          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] max-w-3xl mx-auto mb-4">
+            Mark VanCleave is the founding attorney of the Law Offices of Mark D. VanCleave, PLLC. With over 25 years of legal experience, Mark has dedicated his career to guiding individuals through the overwhelming aftermath of severe accidents.
+          </p>
+          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] max-w-3xl mx-auto mb-4">
+            Mark's reputation for aggressive, effective advocacy in tough personal injury cases is well-established throughout Baytown. He understands the many ways that an injury can affect you and your loved ones, and he brings a fierce determination to prevail for his clients against massive insurance companies and corporate legal teams.
+          </p>
+          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] max-w-3xl mx-auto">
+            While he is tough in negotiations and in court, Mark treats his clients with respect and compassion. He ensures that every client understands their rights and is never taken advantage of by the legal system.
           </p>
         </div>
 
