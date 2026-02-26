@@ -198,7 +198,7 @@ export const ThankYou = (): JSX.Element => {
         <section className="w-full bg-black py-6 md:py-8">
           <div className="container mx-auto max-w-4xl px-4 text-center">
             <p className="font-['Roboto',Helvetica] text-gray-400 text-xs md:text-sm mb-2">
-              © 2025 Law Offices of Mark D. VanCleave, PLLC. All rights reserved.
+              © 2026 Law Offices of Mark D. VanCleave, PLLC. All rights reserved.
             </p>
             <p className="font-['Roboto',Helvetica] text-gray-500 text-xs leading-[16px]">
               The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.

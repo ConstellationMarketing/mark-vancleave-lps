@@ -224,7 +224,7 @@ export const FooterSection = (): JSX.Element => {
           <div className="mt-8 md:mt-16 pt-6 md:pt-8 border-t border-white/20">
             <div className="text-center">
               <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px] mb-3 md:mb-4">
-                © 2025 Law Offices of Mark D. VanCleave, PLLC. All rights reserved.
+                © 2026 Law Offices of Mark D. VanCleave, PLLC. All rights reserved.
               </p>
               <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs leading-[14px] md:leading-[16px]">
                 The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
