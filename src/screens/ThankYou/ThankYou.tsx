@@ -1,0 +1,212 @@
+import React from "react";
+import { CheckCircle, Phone, MapPin, Clock } from "lucide-react";
+
+export const ThankYou = (): JSX.Element => {
+  return (
+    <div className="w-full bg-white">
+      <div className="flex flex-col">
+        {/* Header Section */}
+        <section className="relative w-full min-h-[150px] md:h-[200px] bg-[#182246]">
+          {/* Navigation Bar */}
+          <div className="relative w-full h-[60px] md:h-[83px] bg-white">
+            <div className="absolute w-[180px] md:w-[250px] h-6 md:h-9 top-[17px] md:top-[23px] left-4 md:left-24">
+              <img 
+                src="/logo.png" 
+                alt="Constellation Law - A Criminal Defense Law Firm" 
+                className="w-full h-full object-contain"
+              />
+            </div>
+
+            <div className="absolute h-[60px] md:h-[83px] top-0 right-0 bg-[#182246] flex items-center">
+              <div className="w-[160px] md:w-[216px] h-[60px] md:h-[83px] bg-[#182246] flex flex-col items-center justify-center px-2">
+                <a 
+                  href="tel:5551234567"
+                  className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-medium text-white hover:text-[#ff8a00] transition-colors duration-300"
+                >
+                  (555) 123-4567
+                </a>
+                <p className="mt-1 [font-family:'Playfair_Display',Helvetica] font-medium text-white text-[8px] md:text-[11px] text-center tracking-[2px] md:tracking-[4.00px] leading-[12px] md:leading-[19.8px]">
+                  CALL YOUR ATTORNEY
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Thank You Header */}
+          <div className="relative w-full max-w-[1130px] mx-auto mt-4 md:mt-[30px] px-4 text-center">
+            <div className="flex items-center justify-center mb-3 md:mb-4">
+              <CheckCircle className="w-12 md:w-16 h-12 md:h-16 text-[#ff8a00]" />
+            </div>
+            <h1 className="[font-family:'Playfair_Display',Helvetica] font-bold text-white text-2xl md:text-3xl lg:text-4xl leading-[28px] md:leading-[35px] lg:leading-[44px]">
+              Thank You for Your Submission
+            </h1>
+          </div>
+        </section>
+
+        {/* Main Thank You Content */}
+        <section className="w-full py-12 md:py-20 bg-white">
+          <div className="container mx-auto max-w-4xl px-4 text-center">
+            <h2 className="font-['Playfair_Display',Helvetica] font-bold text-[#434343] text-xl md:text-2xl lg:text-3xl mb-4 md:mb-6 leading-[24px] md:leading-[30px] lg:leading-[39.6px]">
+              We've Received Your Request
+            </h2>
+            
+            <p className="font-['Montserrat',Helvetica] font-medium text-base md:text-lg text-black leading-[24px] md:leading-[27px] mb-6 md:mb-8 max-w-2xl mx-auto">
+              Thank you for reaching out to Constellation Law. We understand that facing criminal charges can be overwhelming, and we're here to help you through this difficult time.
+            </p>
+
+            <div className="bg-[#182246] rounded-2xl p-6 md:p-8 mb-8 md:mb-12">
+              <h3 className="font-['Playfair_Display',Helvetica] font-bold text-white text-lg md:text-xl lg:text-2xl mb-3 md:mb-4">
+                What Happens Next?
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 text-left">
+                <div className="flex items-start gap-3 text-center md:text-left">
+                  <div className="w-8 h-8 bg-[#ff8a00] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-white font-bold text-sm">1</span>
+                  </div>
+                  <div>
+                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
+                      Review Your Case
+                    </h4>
+                    <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                      We'll carefully review the details you provided about your legal situation.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3 text-center md:text-left">
+                  <div className="w-8 h-8 bg-[#ff8a00] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-white font-bold text-sm">2</span>
+                  </div>
+                  <div>
+                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
+                      Contact You
+                    </h4>
+                    <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                      We'll reach out within 24 hours to schedule your free consultation.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3 text-center md:text-left">
+                  <div className="w-8 h-8 bg-[#ff8a00] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                    <span className="text-white font-bold text-sm">3</span>
+                  </div>
+                  <div>
+                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-sm md:text-base mb-1 md:mb-2">
+                      Plan Your Defense
+                    </h4>
+                    <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                      We'll discuss your options and create a strategy to protect your future.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-red-50 border-l-4 border-red-400 p-4 md:p-6 mb-6 md:mb-8">
+              <div className="flex items-start">
+                <div className="flex-shrink-0">
+                  <svg className="w-4 md:w-5 h-4 md:h-5 text-red-400 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div className="ml-2 md:ml-3">
+                  <h4 className="font-['Montserrat',Helvetica] font-bold text-red-800 text-sm md:text-base">
+                    Need Immediate Help?
+                  </h4>
+                  <p className="font-['Montserrat',Helvetica] text-red-700 text-xs md:text-sm mt-1">
+                    If you've been arrested or need emergency legal assistance, don't wait. Call us now at <a href="tel:5551234567" className="font-bold underline">(555) 123-4567</a>. We're available 24/7 for urgent matters.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Information Section */}
+        <section className="w-full bg-[#182246] py-12 md:py-16">
+          <div className="container mx-auto max-w-4xl px-4">
+            <div className="text-center mb-8 md:mb-12">
+              <h2 className="font-['Playfair_Display',Helvetica] font-bold text-white text-xl md:text-2xl lg:text-3xl mb-3 md:mb-4">
+                Contact Information
+              </h2>
+              <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-base md:text-lg">
+                We're here when you need us most
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+              <div className="text-center">
+                <div className="w-12 md:w-16 h-12 md:h-16 bg-[#ff8a00] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                  <Phone className="w-6 md:w-8 h-6 md:h-8 text-white" />
+                </div>
+                <h3 className="font-['Playfair_Display',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
+                  Call Now
+                </h3>
+                <a 
+                  href="tel:5551234567"
+                  className="font-['Montserrat',Helvetica] font-bold text-[#ff8a00] text-lg md:text-xl hover:text-white transition-colors duration-300"
+                >
+                  (555) 123-4567
+                </a>
+                <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs md:text-sm mt-1 md:mt-2">
+                  Available 24/7
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-12 md:w-16 h-12 md:h-16 bg-[#ff8a00] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                  <MapPin className="w-6 md:w-8 h-6 md:h-8 text-white" />
+                </div>
+                <h3 className="font-['Playfair_Display',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
+                  Office Location
+                </h3>
+                <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-sm md:text-base">
+                  123 Main Street STE 456<br />
+                  Springfield, IL 62701
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-12 md:w-16 h-12 md:h-16 bg-[#ff8a00] rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                  <Clock className="w-6 md:w-8 h-6 md:h-8 text-white" />
+                </div>
+                <h3 className="font-['Playfair_Display',Helvetica] font-bold text-white text-lg md:text-xl mb-1 md:mb-2">
+                  Response Time
+                </h3>
+                <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-sm md:text-base">
+                  Within 24 Hours<br />
+                  Emergency Consultations
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center mt-8 md:mt-12 pt-6 md:pt-8 border-t border-white/20">
+              <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-sm md:text-base mb-3 md:mb-4">
+                Serving Springfield, Decatur, Chatham, Rochester, Sherman, Auburn, Pawnee & Surrounding Areas in Sangamon County
+              </p>
+              <a 
+                href="/"
+                className="bg-[#ff8a00] hover:bg-[#e67d00] text-white font-bold py-2 md:py-3 px-4 md:px-6 rounded-full text-sm md:text-base transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
+              >
+                Return to Homepage
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Footer */}
+        <section className="w-full bg-black py-6 md:py-8">
+          <div className="container mx-auto max-w-4xl px-4 text-center">
+            <p className="font-['Montserrat',Helvetica] text-gray-400 text-xs md:text-sm mb-2">
+              © 2025 Constellation Law. All rights reserved.
+            </p>
+            <p className="font-['Montserrat',Helvetica] text-gray-500 text-xs leading-[16px]">
+              The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+};

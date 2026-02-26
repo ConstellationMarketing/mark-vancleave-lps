@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Thank You - Constellation Law - Criminal Defense</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="Thank you for contacting Constellation Law. We'll be in touch within 24 hours to discuss your criminal defense case." />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700,400|Playfair+Display:500,700|Roboto:400");
+    </style>
+    <link href="tailwind.css" rel="stylesheet" />
+    <script>
+      // UTM and tracking parameter capture for thank you page
+      (function() {
+        function getUrlParameter(name) {
+          name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+          var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+          var results = regex.exec(location.search);
+          return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+        
+        // Store any additional tracking data that might come through URL
+        var trackingData = {
+          utm_source: getUrlParameter('utm_source') || sessionStorage.getItem('utm_source') || '',
+          utm_medium: getUrlParameter('utm_medium') || sessionStorage.getItem('utm_medium') || '',
+          utm_campaign: getUrlParameter('utm_campaign') || sessionStorage.getItem('utm_campaign') || '',
+          utm_term: getUrlParameter('utm_term') || sessionStorage.getItem('utm_term') || '',
+          utm_content: getUrlParameter('utm_content') || sessionStorage.getItem('utm_content') || '',
+          gclid: getUrlParameter('gclid') || sessionStorage.getItem('gclid') || '',
+          fbclid: getUrlParameter('fbclid') || sessionStorage.getItem('fbclid') || '',
+          msclkid: getUrlParameter('msclkid') || sessionStorage.getItem('msclkid') || '',
+          referrer: sessionStorage.getItem('referrer') || '',
+          landing_page: sessionStorage.getItem('landing_page') || '',
+          session_id: sessionStorage.getItem('session_id') || ''
+        };
+        
+        // Update sessionStorage with any new data
+        Object.keys(trackingData).forEach(function(key) {
+          if (trackingData[key]) {
+            sessionStorage.setItem(key, trackingData[key]);
+          }
+        });
+        
+        // Store tracking data for potential analytics use
+        window.trackingData = trackingData;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./src/thank-you.tsx"></script>
+  </body>
+</html>

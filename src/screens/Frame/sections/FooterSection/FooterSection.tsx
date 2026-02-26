@@ -1,0 +1,251 @@
+import React from "react";
+import { Card, CardContent } from "../../../../components/ui/card";
+import { Quote, Star, MapPin, Phone, Clock } from "lucide-react";
+
+export const FooterSection = (): JSX.Element => {
+  return (
+    <section className="w-full bg-[#182246] py-8 md:py-16">
+        <div className="container mx-auto max-w-7xl px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
+            {/* Left Side - Contact Info */}
+            <div className="bg-black rounded-lg p-6 md:p-8">
+              <div className="text-center mb-6 md:mb-8">
+                <h2 className="font-medium text-white text-xl md:text-2xl lg:text-[33px] font-['Playfair_Display',Helvetica] leading-[24px] md:leading-[30px] lg:leading-[46.2px] mb-3 md:mb-4">
+                  GET IN TOUCH NOW
+                </h2>
+                <div className="w-12 md:w-16 h-1 bg-[#ff8a00] mx-auto"></div>
+              </div>
+
+              {/* Contact Details */}
+              <div className="space-y-4 md:space-y-6">
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-12 h-12 bg-[#ff8a00] rounded-full flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-['Playfair_Display',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                      Office Location
+                    </h4>
+                    <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
+                      123 Main Street STE 456<br />
+                      Springfield, IL 62701
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-12 h-12 bg-[#ff8a00] rounded-full flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-['Playfair_Display',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                      Call Now
+                    </h4>
+                    <a 
+                      href="tel:5551234567"
+                      className="font-['Montserrat',Helvetica] font-bold text-[#ff8a00] text-lg md:text-xl hover:text-white transition-colors duration-300"
+                    >
+                      (555) 123-4567
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 md:gap-4">
+                  <div className="w-12 h-12 bg-[#ff8a00] rounded-full flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-['Playfair_Display',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
+                      Availability
+                    </h4>
+                    <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
+                      Available 24/7<br />
+                      Emergency Consultations
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Service Areas */}
+              <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
+                <h4 className="font-['Playfair_Display',Helvetica] font-bold text-white text-base md:text-lg mb-3 md:mb-4">
+                  Serving Areas
+                </h4>
+                <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                  Springfield, Decatur, Chatham, Rochester, Sherman, Auburn, Pawnee & Surrounding Areas in Sangamon County
+                </p>
+              </div>
+            </div>
+
+            {/* Right Side - Contact Form */}
+            <div id="contact-form" className="bg-white rounded-lg p-6 md:p-8 shadow-xl">
+              <div className="mb-6 md:mb-8">
+                <h3 className="font-['Playfair_Display',Helvetica] font-bold text-[#434343] text-xl md:text-2xl mb-3 md:mb-4">
+                  Request Your Free Consultation
+                </h3>
+                <p className="font-['Montserrat',Helvetica] text-gray-600 text-sm md:text-base leading-[20px] md:leading-[24px]">
+                  Don't let criminal charges define your life. Contact us today for a confidential consultation and let us stand by your side every step of the way.
+                </p>
+              </div>
+
+              <form
+                action="https://usebasin.com/f/BASIN_FORM_ID"
+                method="POST"
+                className="space-y-4 md:space-y-6"
+                id="contact-form"
+              >
+                <input type="hidden" name="subject" value="New Contact Form Submission - Constellation Law" />
+                <input type="hidden" name="redirect" value="/thank-you.html" />
+
+                {/* Current UTM Parameters */}
+                <input type="hidden" name="utm_source" id="utm_source" />
+                <input type="hidden" name="utm_medium" id="utm_medium" />
+                <input type="hidden" name="utm_campaign" id="utm_campaign" />
+                <input type="hidden" name="utm_term" id="utm_term" />
+                <input type="hidden" name="utm_content" id="utm_content" />
+
+                {/* Paid Ad Click IDs */}
+                <input type="hidden" name="gclid" id="gclid" />
+                <input type="hidden" name="fbclid" id="fbclid" />
+                <input type="hidden" name="msclkid" id="msclkid" />
+
+                {/* First-Touch Attribution */}
+                <input type="hidden" name="first_utm_source" id="first_utm_source" />
+                <input type="hidden" name="first_utm_medium" id="first_utm_medium" />
+                <input type="hidden" name="first_utm_campaign" id="first_utm_campaign" />
+                <input type="hidden" name="first_utm_term" id="first_utm_term" />
+                <input type="hidden" name="first_utm_content" id="first_utm_content" />
+                <input type="hidden" name="first_referrer" id="first_referrer" />
+                <input type="hidden" name="first_landing_page" id="first_landing_page" />
+                <input type="hidden" name="first_visit_timestamp" id="first_visit_timestamp" />
+
+                {/* Referrer Information */}
+                <input type="hidden" name="referrer" id="referrer" />
+                <input type="hidden" name="referrer_domain" id="referrer_domain" />
+                <input type="hidden" name="search_engine" id="search_engine" />
+                <input type="hidden" name="social_platform" id="social_platform" />
+
+                {/* Traffic Classification */}
+                <input type="hidden" name="traffic_source_category" id="traffic_source_category" />
+                <input type="hidden" name="is_paid_traffic" id="is_paid_traffic" />
+                <input type="hidden" name="is_returning_visitor" id="is_returning_visitor" />
+
+                {/* WhatConverts Compatible Fields */}
+                <input type="hidden" name="lead_source" id="lead_source" />
+                <input type="hidden" name="lead_medium" id="lead_medium" />
+                <input type="hidden" name="lead_campaign" id="lead_campaign" />
+                <input type="hidden" name="lead_keyword" id="lead_keyword" />
+                <input type="hidden" name="lead_content" id="lead_content" />
+                <input type="hidden" name="landing_url" id="landing_url" />
+
+                {/* Session Information */}
+                <input type="hidden" name="landing_page" id="landing_page" />
+                <input type="hidden" name="current_page_url" id="current_page_url" />
+                <input type="hidden" name="session_id" id="session_id" />
+                <input type="hidden" name="session_count" id="session_count" />
+                <input type="hidden" name="pages_visited" id="pages_visited" />
+                <input type="hidden" name="time_on_page" id="time_on_page" />
+
+                {/* Technical Information */}
+                <input type="hidden" name="user_agent" id="user_agent" />
+                <input type="hidden" name="device_type" id="device_type" />
+                <input type="hidden" name="browser" id="browser" />
+                <input type="hidden" name="os" id="os" />
+                <input type="hidden" name="screen_resolution" id="screen_resolution" />
+                <input type="hidden" name="timestamp" id="timestamp" />
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
+                  <div>
+                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#434343] text-xs md:text-sm mb-1 md:mb-2">
+                      First Name *
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      name="firstName"
+                      className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff8a00] focus:border-transparent transition-all duration-300 font-['Montserrat',Helvetica] text-sm md:text-base"
+                      placeholder="Enter your first name"
+                    />
+                  </div>
+                  <div>
+                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#434343] text-xs md:text-sm mb-1 md:mb-2">
+                      Last Name *
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      name="lastName"
+                      className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff8a00] focus:border-transparent transition-all duration-300 font-['Montserrat',Helvetica] text-sm md:text-base"
+                      placeholder="Enter your last name"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
+                  <div>
+                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#434343] text-xs md:text-sm mb-1 md:mb-2">
+                      Phone *
+                    </label>
+                    <input
+                      type="tel"
+                      required
+                      name="phone"
+                      className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff8a00] focus:border-transparent transition-all duration-300 font-['Montserrat',Helvetica] text-sm md:text-base"
+                      placeholder="(555) 123-4567"
+                    />
+                  </div>
+                  <div>
+                    <label className="block font-['Montserrat',Helvetica] font-medium text-[#434343] text-xs md:text-sm mb-1 md:mb-2">
+                      Email *
+                    </label>
+                    <input
+                      type="email"
+                      required
+                      name="email"
+                      className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff8a00] focus:border-transparent transition-all duration-300 font-['Montserrat',Helvetica] text-sm md:text-base"
+                      placeholder="your.email@example.com"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block font-['Montserrat',Helvetica] font-medium text-[#434343] text-xs md:text-sm mb-1 md:mb-2">
+                    Brief Summary of Your Case *
+                  </label>
+                  <textarea
+                    required
+                    rows={3}
+                    name="caseDescription"
+                    className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ff8a00] focus:border-transparent transition-all duration-300 font-['Montserrat',Helvetica] resize-vertical text-sm md:text-base"
+                    placeholder="Please provide a brief description of your legal situation..."
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-[#ff8a00] hover:bg-[#e67d00] text-white font-bold py-3 md:py-4 px-6 md:px-8 rounded-lg text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg font-['Montserrat',Helvetica]"
+                >
+                  REQUEST A CONSULTATION
+                </button>
+
+                <p className="text-xs text-gray-500 text-center font-['Montserrat',Helvetica] leading-[14px] md:leading-[16px]">
+                  By submitting this form, you agree to be contacted by Constellation Law regarding your case. All information is confidential.
+                </p>
+              </form>
+            </div>
+          </div>
+
+          {/* Bottom Footer */}
+          <div className="mt-8 md:mt-16 pt-6 md:pt-8 border-t border-white/20">
+            <div className="text-center">
+              <p className="font-['Montserrat',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px] mb-3 md:mb-4">
+                © 2025 Constellation Law. All rights reserved.
+              </p>
+              <p className="font-['Montserrat',Helvetica] text-[#cbd5e0] text-xs leading-[14px] md:leading-[16px]">
+                The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  );
+};
