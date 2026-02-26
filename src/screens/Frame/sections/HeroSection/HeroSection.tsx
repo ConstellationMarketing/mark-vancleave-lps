@@ -39,6 +39,10 @@ export const HeroSection = (): JSX.Element => {
           With over 25 years of experience, we provide empathetic, clear, and reassuring legal support for victims of auto and 18-wheeler accidents in our local community.
         </p>
 
+        <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Roboto',Helvetica] text-white text-[18px] leading-[28px] text-center md:text-left">
+          Suffering a serious injury can turn your life upside down. Between physical pain, mounting medical bills, and lost wages, the process can feel overwhelming. You do not have to navigate this alone. At the Law Offices of Mark D. VanCleave, PLLC, our priority is your recovery. We focus on fairness and guiding you through the legal process so you can focus on healing.
+        </p>
+
         <Button
           className="mt-6 md:mt-[38px] w-full md:w-[347px] h-12 md:h-[59px] bg-[#d44500] rounded-[100px] border-2 border-solid hover:bg-[#c23900] [font-family:'Montserrat',Helvetica] font-medium text-white text-base md:text-lg tracking-[0] leading-[24px] md:leading-[30.6px] mx-auto md:mx-0 block"
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
