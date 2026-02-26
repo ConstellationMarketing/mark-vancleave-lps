@@ -50,19 +50,6 @@ export const FooterSection = (): JSX.Element => {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 md:gap-4">
-                  <div className="w-12 h-12 bg-[#d44500] rounded-full flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-1 md:mb-2">
-                      Contact Email
-                    </h4>
-                    <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-sm md:text-base leading-[20px] md:leading-[24px]">
-                      mvancleave@lawmdv.com
-                    </p>
-                  </div>
-                </div>
               </div>
 
               {/* Service Areas */}
