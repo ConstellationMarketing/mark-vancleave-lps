@@ -29,12 +29,10 @@ export const WhyUsSection = (): JSX.Element => {
             </p>
 
             <Button
-              className="bg-[#d44500] hover:bg-[#c23900] text-white rounded-[100px] border-2 border-solid px-6 md:px-12 py-3 md:py-6 h-auto shadow-lg transform hover:scale-105 transition-all duration-200 w-full lg:w-auto"
+              className="bg-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] px-8 py-3 transition-colors duration-300 w-full lg:w-auto"
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              <span className="font-['Montserrat',Helvetica] font-bold text-base md:text-lg lg:text-xl text-center leading-[24px] md:leading-[27px] lg:leading-[30.6px]">
-                Schedule Your Free Consultation
-              </span>
+              Schedule Your Free Consultation
             </Button>
           </div>
         </div>

@@ -105,13 +105,13 @@ export const WhyChooseUsSection = (): JSX.Element => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a
               href="tel:2813038800"
-              className="bg-[#d44500] hover:bg-[#c23900] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 py-3 transition-colors duration-300"
             >
               Call Now: 281-303-8800
             </a>
             <button
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-white hover:bg-gray-100 text-[#00417b] font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-white"
+              className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 py-3 transition-colors duration-300"
             >
               Request Consultation
             </button>

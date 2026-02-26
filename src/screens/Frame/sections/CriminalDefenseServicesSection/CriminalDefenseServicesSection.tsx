@@ -111,7 +111,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
           <p className="font-medium text-base md:text-lg lg:text-xl text-white mb-6 md:mb-8 [font-family:'Montserrat',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8">
             No two accidents are the same. We take the time to listen to your situation and build a strategy focused on your recovery.
           </p>
-          <Button className="bg-[#d44500] hover:bg-[#c23900] text-white font-medium text-base md:text-lg rounded-[100px] h-12 md:h-[59px] px-6 md:px-10 border-2 border-solid [font-family:'Montserrat',Helvetica] tracking-[0] leading-[24px] md:leading-[30.6px] shadow-lg transform hover:scale-105 transition-all duration-200 w-full md:w-auto">
+          <Button className="bg-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] px-8 py-3 transition-colors duration-300">
             <span onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}>
               Request Your Free Consultation
             </span>
