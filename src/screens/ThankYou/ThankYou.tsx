@@ -11,7 +11,7 @@ export const ThankYou = (): JSX.Element => {
           <div className="relative w-full h-[60px] md:h-[83px] bg-white">
             <div className="absolute w-[180px] md:w-[250px] h-6 md:h-9 top-[17px] md:top-[23px] left-4 md:left-24">
               <img
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Law Offices of Mark D. VanCleave, PLLC"
                 className="w-full h-full object-contain"
               />
