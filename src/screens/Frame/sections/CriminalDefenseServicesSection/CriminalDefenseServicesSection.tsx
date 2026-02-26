@@ -41,7 +41,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="relative w-full py-12 md:py-20 bg-blend-darken [background:url(https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg)_50%_50%_/_cover,linear-gradient(0deg,rgba(0,0,0,0.85)_0%,rgba(0,0,0,0.85)_100%)]">
+    <section className="relative w-full py-12 md:py-20 bg-blend-darken [background:url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fde5539f813b34ff08ba4c025067ef7af?format=webp&width=800&height=1200)_50%_50%_/_cover,linear-gradient(0deg,rgba(0,0,0,0.85)_0%,rgba(0,0,0,0.85)_100%)]">
       <div className="flex flex-col items-center max-w-6xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-8 md:mb-16">
