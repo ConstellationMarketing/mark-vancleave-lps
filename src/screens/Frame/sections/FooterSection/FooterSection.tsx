@@ -221,7 +221,7 @@ export const FooterSection = (): JSX.Element => {
 
                 <button
                   type="submit"
-                  className="w-full bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] pt-[10px] pb-[10px] px-6 transition-colors duration-300"
+                  className="w-full bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] pt-[20px] pb-[20px] px-6 transition-colors duration-300"
                 >
                   REQUEST A CONSULTATION
                 </button>

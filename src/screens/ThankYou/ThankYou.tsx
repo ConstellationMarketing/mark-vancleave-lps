@@ -186,7 +186,7 @@ export const ThankYou = (): JSX.Element => {
               </p>
               <a
                 href="/"
-                className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 pt-[10px] pb-[10px] transition-colors duration-300 inline-block"
+                className="bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 pt-[20px] pb-[20px] transition-colors duration-300 inline-block"
               >
                 Return to Homepage
               </a>
