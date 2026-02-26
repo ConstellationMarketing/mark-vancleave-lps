@@ -41,7 +41,7 @@ export const ThankYou = (): JSX.Element => {
             <div className="flex items-center justify-center mb-3 md:mb-4">
               <CheckCircle className="w-12 md:w-16 h-12 md:h-16 text-[#d44500]" />
             </div>
-            <h1 className="[font-family:'Montserrat',Helvetica] font-bold text-white text-2xl md:text-3xl lg:text-4xl leading-[28px] md:leading-[35px] lg:leading-[44px]">
+            <h1 className="[font-family:'Montserrat',Helvetica] font-bold text-white text-2xl md:text-3xl lg:text-4xl leading-[28px] md:leading-[35px] lg:leading-[44px] mb-6 md:mb-8">
               Your Request Has Been Received
             </h1>
           </div>
