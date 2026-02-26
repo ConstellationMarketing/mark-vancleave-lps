@@ -65,7 +65,7 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
                       <IconComponent className="w-6 h-6 text-white" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-medium text-lg md:text-xl lg:text-[25px] text-white mb-1 [font-family:'Playfair_Display',Helvetica] tracking-[0] leading-[22px] md:leading-[26px] lg:leading-[30px]">
+                      <h3 className="font-medium text-lg md:text-xl lg:text-[25px] text-white mb-1 [font-family:'Montserrat',Helvetica] tracking-[0] leading-[22px] md:leading-[26px] lg:leading-[30px]">
                         {service.title}
                       </h3>
                       {service.subtitle && (
