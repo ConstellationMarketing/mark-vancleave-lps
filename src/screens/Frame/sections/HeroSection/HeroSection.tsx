@@ -14,15 +14,15 @@ export const HeroSection = (): JSX.Element => {
           />
         </div>
 
-        <div className="absolute h-[60px] md:h-[83px] top-0 right-0 bg-[#182246] flex items-center">
-          <div className="w-[160px] md:w-[216px] h-[60px] md:h-[83px] bg-[#182246] flex flex-col items-center justify-center px-2">
-            <a 
-              href="tel:5551234567"
-              className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-medium text-white hover:text-[#ff8a00] transition-colors duration-300"
+        <div className="absolute h-[60px] md:h-[83px] top-0 right-0 bg-[#00417b] flex items-center">
+          <div className="w-[160px] md:w-[216px] h-[60px] md:h-[83px] bg-[#00417b] flex flex-col items-center justify-center px-2">
+            <a
+              href="tel:2813038800"
+              className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-medium text-white hover:text-[#d44500] transition-colors duration-300"
             >
-              (555) 123-4567
+              (281) 303-8800
             </a>
-            <p className="mt-1 [font-family:'Playfair_Display',Helvetica] font-medium text-white text-[8px] md:text-[11px] text-center tracking-[2px] md:tracking-[4.00px] leading-[12px] md:leading-[19.8px]">
+            <p className="mt-1 [font-family:'Montserrat',Helvetica] font-medium text-white text-[8px] md:text-[11px] text-center tracking-[2px] md:tracking-[4.00px] leading-[12px] md:leading-[19.8px]">
               CALL YOUR ATTORNEY
             </p>
           </div>
@@ -31,19 +31,19 @@ export const HeroSection = (): JSX.Element => {
 
       {/* Hero Content */}
       <div className="relative w-full max-w-[1130px] mx-auto mt-8 md:mt-[74px] px-4 md:px-8">
-        <p className="[text-shadow:0px_0px_6.9px_#00000066] [font-family:'Playfair_Display',Helvetica] font-medium text-[#cbd5e0] text-lg md:text-[23px] tracking-[-0.5px] md:tracking-[-1.00px] leading-[22px] md:leading-[25.3px] text-center md:text-left">
-          Trusted Criminal Defense in Springfield
+        <p className="[text-shadow:0px_0px_6.9px_#00000066] [font-family:'Montserrat',Helvetica] font-medium text-[#cbd5e0] text-lg md:text-[23px] tracking-[-0.5px] md:tracking-[-1.00px] leading-[22px] md:leading-[25.3px] text-center md:text-left">
+          With over 25 years of experience
         </p>
 
         <h1 className="mt-4 md:mt-[30px] [text-shadow:0px_0px_16.5px_#00000066] [font-family:'Montserrat',Helvetica] font-medium text-white text-2xl md:text-4xl lg:text-[55px] tracking-[0] leading-[28px] md:leading-[44px] lg:leading-[60.5px] text-center md:text-left">
-          Experienced. Respected. Relentless in Your Defense.
+          Injured in a Baytown Auto Accident? We Can Help You Seek Fair Compensation.
         </h1>
 
-        <Button 
-          className="mt-6 md:mt-[38px] w-full md:w-[347px] h-12 md:h-[59px] bg-[#ff8a00] rounded-[100px] border-2 border-solid hover:bg-[#e67e00] [font-family:'Montserrat',Helvetica] font-medium text-white text-base md:text-lg tracking-[0] leading-[24px] md:leading-[30.6px] mx-auto md:mx-0 block"
+        <Button
+          className="mt-6 md:mt-[38px] w-full md:w-[347px] h-12 md:h-[59px] bg-[#d44500] rounded-[100px] border-2 border-solid hover:bg-[#c23900] [font-family:'Montserrat',Helvetica] font-medium text-white text-base md:text-lg tracking-[0] leading-[24px] md:leading-[30.6px] mx-auto md:mx-0 block"
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
         >
-          Schedule a Free Consultation
+          Request a Free Case Evaluation
         </Button>
       </div>
     </section>

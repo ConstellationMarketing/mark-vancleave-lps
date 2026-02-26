@@ -4,33 +4,31 @@ import { Users, Award, Shield, Heart } from "lucide-react";
 export const AboutFirmSection = (): JSX.Element => {
   // Data for paragraphs to enable mapping
   const paragraphs = [
-    "Before you agree to anything with the prosecution, let our Springfield criminal defense law firm review your case. With deep experience in the legal system of Illinois, our attorneys promise to deliver clients an honest assessment of their situation and a clear path forward, commiting ourselves to your defense. Attorney Sarah Johnson has years of experience representing clients in Sangamon County and Illinois; let our firm put it to work for you.",
-    "You may come across other lawyers who don't have a clear specialty or practice areas they are experienced in. The Illinois attorney and their law firm may do a little personal injury, some estate planning, divorce, or family law. If you've been charged with a crime, your best bet is finding representation with a reputation for success.",
-    "Constellation Law Firm has a broad area of coverage, with this office conveniently located in Springfield, the state capital. Our firm represents clients against different criminal law charges such as DUI, drug charges, violent crimes, sex offenses, and theft offenses, including burglary and robbery. An experienced Springfield criminal defense lawyer like Sarah Johnson can help you understand the criminal charges brought against you and guide you through the whole process while fighting for the best possible outcome.",
-    "Contact us today about your court matter and speak with a professional attorney close to where you live. We are serving Springfield and can help individuals and families in Decatur, Chatham, Rochester, Sherman, Auburn, Pawnee, and more. We represent individuals in all types of situations. Even if you've been arrested in a surrounding area, our high-quality staff can most likely help.",
-    "The phone call is free, our Springfield, Illinois, law firm would love to hear your story and use our experience to help.",
+    "The Law Offices of Mark D. VanCleave, PLLC is a Baytown, TX-based law firm dedicated to standing up for those harmed by the negligence of others. We understand that people facing a severe injury need more than just legal advice—they need a steadfast advocate.",
+    "Our firm was built on a simple philosophy: your victory is our victory. When you work with us, you partner with a lawyer who takes your case personally. We leverage over 25 years of experience to evaluate the facts, negotiate with insurance companies, and fight for your rights. We offer clear, honest advice so that you are empowered to make the best decisions regarding your recovery and your future.",
+    "Located on Rollingbrook Drive in Baytown, we proudly serve injured clients throughout the greater Houston area's eastern suburbs, focusing closely on our immediate neighbors. We handle personal injury cases on a contingency fee basis—meaning you pay nothing upfront and no attorney fees unless we help you recover damages.",
   ];
 
   const highlights = [
     {
-      icon: Users,
-      title: "Experienced Team",
-      description: "Years of experience in Georgia's legal system"
+      icon: Shield,
+      title: "25+ Years",
+      description: "Extensive personal injury and auto accident experience"
     },
     {
       icon: Award,
-      title: "Proven Results",
-      description: "Track record of successful defense cases"
-    },
-    {
-      icon: Shield,
-      title: "Comprehensive Defense",
-      description: "Full range of criminal defense services"
+      title: "Local Presence",
+      description: "Baytown office serving the immediate community"
     },
     {
       icon: Heart,
-      title: "Personal Attention",
-      description: "Every client receives dedicated, personalized care"
+      title: "Compassionate",
+      description: "Straightforward legal guidance with respect"
+    },
+    {
+      icon: Users,
+      title: "No Upfront Fees",
+      description: "Only pay if we win your case"
     }
   ];
 
@@ -39,12 +37,12 @@ export const AboutFirmSection = (): JSX.Element => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-[#434343] text-center mb-6 font-['Playfair_Display',Helvetica] leading-[50px]">
-            About Constellation Law
+          <h2 className="text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[50px]">
+            About Law Offices of Mark D. VanCleave, PLLC
           </h2>
-          <div className="w-24 h-1 bg-[#ff8a00] mx-auto mb-8"></div>
-          <h3 className="text-2xl font-bold text-[#182246] mb-8 font-['Montserrat',Helvetica] leading-[32px]">
-            Our team is here for one reason: you.
+          <div className="w-24 h-1 bg-[#d44500] mx-auto mb-8"></div>
+          <h3 className="text-2xl font-bold text-[#00417b] mb-8 font-['Montserrat',Helvetica] leading-[32px]">
+            Standing up for those harmed by the negligence of others
           </h3>
         </div>
 
@@ -54,10 +52,10 @@ export const AboutFirmSection = (): JSX.Element => {
             const IconComponent = highlight.icon;
             return (
               <div key={index} className="text-center group">
-                <div className="w-16 h-16 bg-[#ff8a00] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#e67d00] transition-colors duration-300">
+                <div className="w-16 h-16 bg-[#d44500] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#c23900] transition-colors duration-300">
                   <IconComponent className="w-8 h-8 text-white" />
                 </div>
-                <h4 className="text-lg font-bold text-[#182246] mb-2 font-['Montserrat',Helvetica]">
+                <h4 className="text-lg font-bold text-[#091626] mb-2 font-['Montserrat',Helvetica]">
                   {highlight.title}
                 </h4>
                 <p className="text-sm text-gray-600 font-['Montserrat',Helvetica]">
@@ -72,8 +70,8 @@ export const AboutFirmSection = (): JSX.Element => {
         <div className="max-w-4xl mx-auto">
           {paragraphs.map((paragraph, index) => (
             <div key={`paragraph-${index}`} className="mb-8">
-              <div className="bg-white rounded-lg shadow-sm border-l-4 border-[#ff8a00] p-6 hover:shadow-md transition-shadow duration-300">
-                <p className="text-lg font-medium text-black font-['Montserrat',Helvetica] leading-[28.8px]">
+              <div className="bg-white rounded-lg shadow-sm border-l-4 border-[#d44500] p-6 hover:shadow-md transition-shadow duration-300">
+                <p className="text-lg font-medium text-[#222125] font-['Roboto',Helvetica] leading-[28.8px]">
                   {paragraph}
                 </p>
               </div>
@@ -82,28 +80,28 @@ export const AboutFirmSection = (): JSX.Element => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-16 bg-[#182246] rounded-2xl p-12">
-          <h3 className="text-3xl font-bold text-white mb-4 font-['Playfair_Display',Helvetica]">
-            Ready to Discuss Your Case?
+        <div className="text-center mt-16 bg-[#00417b] rounded-2xl p-12">
+          <h3 className="text-3xl font-bold text-white mb-4 font-['Montserrat',Helvetica]">
+            Schedule Your Free Consultation
           </h3>
           <p className="text-xl text-[#cbd5e0] mb-8 font-['Montserrat',Helvetica] max-w-2xl mx-auto">
-            The phone call is free. Our Springfield, Illinois law firm would love to hear your story and use our experience to help.
+            The phone call is free. Our Baytown law firm would love to hear your story and use our 25+ years of experience to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a 
-              href="tel:5551234567"
-              className="bg-[#ff8a00] hover:bg-[#e67d00] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+            <a
+              href="tel:2813038800"
+              className="bg-[#d44500] hover:bg-[#c23900] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
-              Call Now: (555) 123-4567
+              Call Now: 281-303-8800
             </a>
-            <button 
+            <button
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-[#182246] hover:bg-[#1a2654] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-[#2a4fa0] hover:bg-[#1e3a6f] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Request Consultation
             </button>
             <span className="text-[#cbd5e0] font-['Montserrat',Helvetica]">
-              Available 24/7 • Free Consultation
+              Free Consultation • No Upfront Fees
             </span>
           </div>
         </div>
