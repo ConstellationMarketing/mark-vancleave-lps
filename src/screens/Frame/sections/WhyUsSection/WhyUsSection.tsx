@@ -5,14 +5,14 @@ export const WhyUsSection = (): JSX.Element => {
   return (
     <section className="w-full py-8 md:py-12 bg-white">
       <div className="container mx-auto max-w-7xl px-4">
-        <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-center">
+        <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-stretch">
           <div
-            className="w-full lg:w-[415px] h-[200px] md:h-[277px] bg-[url(https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg)] bg-cover bg-center rounded-md shadow-lg"
+            className="w-full lg:w-[415px] bg-[url(https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg)] bg-cover bg-center rounded-md shadow-lg"
             aria-hidden="true"
           />
 
           <div className="w-full lg:w-[653px] space-y-4 md:space-y-6 text-center lg:text-left">
-            <h2 className="font-medium text-2xl md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
+            <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
               About Law Offices of Mark D. VanCleave, PLLC
             </h2>
 
