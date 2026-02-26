@@ -18,14 +18,14 @@ export const ThankYou = (): JSX.Element => {
             </div>
 
             <div className="absolute h-[60px] md:h-[83px] top-0 right-0 bg-[#00417b] flex items-center">
-              <div className="w-[160px] md:w-[216px] h-[60px] md:h-[83px] bg-[#00417b] flex flex-col items-center justify-center px-2">
+              <div className="w-[180px] md:w-[280px] h-[60px] md:h-[83px] bg-[#00417b] flex flex-col items-center justify-center px-2">
                 <a
                   href="tel:2813038800"
-                  className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-medium text-white hover:text-[#d44500] transition-colors duration-300"
+                  className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Montserrat',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
                 >
                   (281) 303-8800
                 </a>
-                <p className="mt-1 [font-family:'Montserrat',Helvetica] font-medium text-white text-[8px] md:text-[11px] text-center tracking-[2px] md:tracking-[4.00px] leading-[12px] md:leading-[19.8px]">
+                <p className="mt-1 [font-family:'Roboto',Helvetica] font-medium text-white text-[7px] md:text-[9px] text-center tracking-[0] leading-[10px] md:leading-[14px]">
                   CALL YOUR ATTORNEY
                 </p>
               </div>
