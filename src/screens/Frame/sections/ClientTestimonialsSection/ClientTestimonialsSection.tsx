@@ -35,14 +35,11 @@ export const ClientTestimonialsSection = (): JSX.Element => {
     <section className="w-full bg-white py-8">
       <div className="max-w-[1130px] mx-auto">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-[#434343] mb-4 font-['Playfair_Display',Helvetica]">
+          <h2 className="text-3xl font-bold text-[#091626] mb-4 font-['Montserrat',Helvetica]">
             What Our Clients Say
           </h2>
-          <div className="w-16 h-1 bg-[#ff8a00] mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600 font-['Montserrat',Helvetica]">
-            Don't just take our word for it. Here's what real clients have to say about their experience with Constellation Law.
-          </p>
-          
+          <div className="w-16 h-1 bg-[#d44500] mx-auto mb-4"></div>
+
           {/* Star Rating Display */}
           <div className="flex items-center justify-center gap-2 mt-6">
             <div className="flex">
