@@ -18,16 +18,19 @@ export const ClientTestimonialsSection = (): JSX.Element => {
   // Client testimonials data
   const testimonials = [
     {
-      text: "Sarah Johnson is a phenomenal attorney I literally hired her 1 Day before my boyfriend's court date and did the best job I've seen so far. We've dealt with other lawyers and have never had a more positive result than this. Her and her assistant were Awesome! Thank you so much!! Great results! I highly recommend her!!!!!!!!",
-      author: "Jennifer M.",
+      text: "He was awesome, his staff were amazing. He took calls late at night/weekends. Never steered me wrong, very transparent and honest. He gained a life long client, if ever i need help.",
+      author: "Dave Marshall",
+      timeframe: "11 months ago",
     },
     {
-      text: "Ms. Sarah Johnson is an exceptional attorney and has my utmost trust. Her staff is phenomenal and keeps clients informed of the process throughout a case. I cannot recommend anyone better than her for a defense lawyer.",
-      author: "Michael R.",
+      text: "Mark was amazing and made our accident claim less stressful for us. He was open and honest, no hidden agenda. Made the process easy and I would highly recommend his services.",
+      author: "Debra Byrd",
+      timeframe: "1 year ago",
     },
     {
-      text: "Everything was perfect from beginning to end.",
-      author: "David L.",
+      text: "highly recommend for any personal injury! Mark & his team have helped me & my family for severals years now and has always been a big help & great communication with and keeping me updated with what was going on & looking out for my best interest and his staff is so nice and would help me out & keep me updated as well😊",
+      author: "Leticia Pesina",
+      timeframe: "1 year ago",
     }
   ];
 
@@ -82,7 +85,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
                     {testimonial.author}
                   </p>
                   <p className="text-sm text-gray-500 font-['Montserrat',Helvetica]">
-                    Verified Google Review
+                    {testimonial.timeframe && `${testimonial.timeframe} • `}Verified Google Review
                   </p>
                 </div>
               </CardContent>
