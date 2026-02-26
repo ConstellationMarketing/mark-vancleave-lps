@@ -75,12 +75,13 @@ export const FooterSection = (): JSX.Element => {
               </div>
 
               <form
-                action="https://usebasin.com/f/BASIN_FORM_ID"
                 method="POST"
                 className="space-y-4 md:space-y-6"
                 id="contact-form"
+                name="injury-form"
+                netlify
               >
-                <input type="hidden" name="subject" value="New Contact Form Submission - Law Offices of Mark D. VanCleave, PLLC" />
+                <input type="hidden" name="form-name" value="injury-form" />
                 <input type="hidden" name="redirect" value="/thank-you.html" />
 
                 {/* Current UTM Parameters */}
