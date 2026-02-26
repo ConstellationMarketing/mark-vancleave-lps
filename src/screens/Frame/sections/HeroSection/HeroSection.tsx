@@ -44,7 +44,7 @@ export const HeroSection = (): JSX.Element => {
         </p>
 
         <Button
-          className="mt-6 md:mt-[38px] w-full md:w-auto px-8 pt-[20px] pb-[20px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
+          className="mt-6 md:mt-[38px] w-full md:w-auto px-8 pt-[30px] pb-[30px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
           onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
         >
           Request a Free Case Evaluation

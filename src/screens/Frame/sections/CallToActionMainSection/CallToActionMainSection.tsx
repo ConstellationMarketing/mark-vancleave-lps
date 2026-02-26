@@ -19,7 +19,7 @@ export const CallToActionMainSection = (): JSX.Element => {
         <div className="text-center">
           <a
             href="tel:2813038800"
-            className="inline-block bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 pt-[20px] pb-[20px] transition-colors duration-300"
+            className="inline-block bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 pt-[30px] pb-[30px] transition-colors duration-300"
           >
             281-303-8800
           </a>
