@@ -45,10 +45,10 @@ export const CriminalDefenseServicesSection = (): JSX.Element => {
       <div className="flex flex-col items-center max-w-6xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-8 md:mb-16">
-          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-4 md:mb-6 [font-family:'Montserrat',Helvetica] tracking-[0] leading-[28px] md:leading-[35px] lg:leading-[39.6px]">
+          <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-4 md:mb-6 [font-family:'Montserrat',Helvetica] tracking-[0] leading-[28px] md:leading-[35px] lg:leading-[39.6px] text-center">
             Focused Auto Accident &amp; Personal Injury Representation
           </h2>
-          <p className="font-medium text-base md:text-lg lg:text-xl text-white [font-family:'Roboto',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8 max-w-4xl">
+          <p className="font-medium text-base md:text-lg lg:text-xl text-white [font-family:'Roboto',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8 max-w-4xl text-center mx-auto">
             We understand the profound impact an injury has on your life and your family. Our firm provides dedicated, one-on-one guidance to protect your rights after a crash.
           </p>
         </div>
