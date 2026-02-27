@@ -3,68 +3,55 @@ import { Button } from "../../../../components/ui/button";
 
 export const CallToActionMainSection = (): JSX.Element => {
   return (
-    <section className="w-full bg-[#00417b] py-8 md:py-16">
-      <div className="container mx-auto max-w-4xl flex flex-col items-center justify-center gap-6 md:gap-8 px-4">
-        {/* Main Heading */}
-        <div className="text-center">
-          <h2 className="font-['Montserrat',Helvetica] font-bold text-2xl md:text-3xl lg:text-5xl text-white text-center leading-[28px] md:leading-[35px] lg:leading-[50px] mb-3 md:mb-4">
-            Meet Attorney Mark VanCleave
-          </h2>
-          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] max-w-3xl mx-auto mb-4">
-            Mark VanCleave is the founding attorney of the Law Offices of Mark D. VanCleave, PLLC. With over 25 years of legal experience, Mark has dedicated his career to guiding individuals through the overwhelming aftermath of severe accidents.
-          </p>
-          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] max-w-3xl mx-auto mb-4">
-            Mark's reputation for aggressive, effective advocacy in tough personal injury cases is well-established throughout Baytown. He understands the many ways that an injury can affect you and your loved ones, and he brings a fierce determination to prevail for his clients against massive insurance companies and corporate legal teams.
-          </p>
-          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] text-center leading-[24px] md:leading-[27px] max-w-3xl mx-auto">
-            While he is tough in negotiations and in court, Mark treats his clients with respect and compassion. He ensures that every client understands their rights and is never taken advantage of by the legal system.
-          </p>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center">
-          <a
-            href="tel:2813038800"
-            className="inline-block bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 py-3 md:pt-[30px] md:pb-[30px] transition-colors duration-300 whitespace-nowrap"
-          >
-            281-303-8800
-          </a>
-        </div>
-
-        {/* Additional Info */}
-        <div className="text-center mt-4 md:mt-6">
-          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-white text-center leading-[24px] md:leading-[27px]">
-            Free Consultation • No Upfront Fees • Work on Contingency
-          </p>
-          <p className="font-['Roboto',Helvetica] font-medium text-sm md:text-base text-[#cbd5e0] text-center leading-[20px] md:leading-[24px] mt-2">
-            Serving Baytown, Channelview, La Porte, Highlands, Mont Belvieu & Greater Houston Area
-          </p>
-        </div>
-
-        {/* Trust Indicators */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mt-6 md:mt-8 pt-6 md:pt-8 border-t border-white/20">
-          <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Montserrat',Helvetica]">
-              25+
-            </div>
-            <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">
-              Years of Legal Experience
-            </div>
+    <section className="w-full bg-[#00417b] py-12 md:py-20">
+      <div className="container mx-auto max-w-6xl px-4">
+        {/* Two Column Layout */}
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-12 items-stretch">
+          {/* Left Column - Image */}
+          <div className="w-full lg:w-[40%] flex items-center justify-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F4fdf862119ba4be19fa62e121ffb987c?format=webp&width=800&height=1200"
+              alt="Attorney Mark VanCleave"
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
           </div>
-          <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Montserrat',Helvetica]">
-              Local
+
+          {/* Right Column - Content */}
+          <div className="w-full lg:w-[60%] flex flex-col justify-start">
+            <h2 className="font-['Montserrat',Helvetica] font-bold text-2xl md:text-3xl lg:text-4xl text-white leading-[28px] md:leading-[35px] lg:leading-[44px] mb-4 md:mb-6 text-left">
+              Meet Attorney Mark VanCleave
+            </h2>
+
+            <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] leading-[24px] md:leading-[27px] mb-4 text-left">
+              Mark VanCleave is the founding attorney of the Law Offices of Mark D. VanCleave, PLLC. With over 25 years of legal experience, Mark has dedicated his career to guiding individuals through the overwhelming aftermath of severe accidents.
+            </p>
+
+            <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] leading-[24px] md:leading-[27px] mb-4 text-left">
+              Mark's reputation for aggressive, effective advocacy in tough personal injury cases is well-established throughout Baytown. He understands the many ways that an injury can affect you and your loved ones, and he brings a fierce determination to prevail for his clients against massive insurance companies and corporate legal teams.
+            </p>
+
+            <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] leading-[24px] md:leading-[27px] mb-6 md:mb-8 text-left">
+              While he is tough in negotiations and in court, Mark treats his clients with respect and compassion. He ensures that every client understands their rights and is never taken advantage of by the legal system.
+            </p>
+
+            {/* Call to Action Button */}
+            <div className="mb-6 md:mb-8">
+              <a
+                href="tel:2813038800"
+                className="inline-block bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 py-3 md:pt-[30px] md:pb-[30px] transition-colors duration-300 whitespace-nowrap"
+              >
+                281-303-8800
+              </a>
             </div>
-            <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">
-              Baytown-Based Firm
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-xl md:text-2xl lg:text-3xl font-bold text-[#d44500] font-['Montserrat',Helvetica]">
-              Aggressive
-            </div>
-            <div className="text-white font-['Roboto',Helvetica] mt-1 text-sm md:text-base">
-              Advocacy for Injuries
+
+            {/* Additional Info */}
+            <div className="border-t border-white/20 pt-6 md:pt-8">
+              <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-white leading-[24px] md:leading-[27px] mb-2">
+                Free Consultation • No Upfront Fees • Work on Contingency
+              </p>
+              <p className="font-['Roboto',Helvetica] font-medium text-sm md:text-base text-[#cbd5e0] leading-[20px] md:leading-[24px]">
+                Serving Baytown, Channelview, La Porte, Highlands, Mont Belvieu & Greater Houston Area
+              </p>
             </div>
           </div>
         </div>
