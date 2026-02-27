@@ -161,20 +161,10 @@
         }
       });
 
-      // Ensure proper redirect after form submission
+      // Populate tracking fields before form submission
       document.addEventListener('submit', function(e) {
         if (e.target && e.target.id === 'contact-form') {
-          // Populate fields before submit
           populateTrackingFields();
-          // Let Netlify handle the form submission
-          // The form will submit normally and redirect via the hidden redirect input
-          setTimeout(function() {
-            // If redirect doesn't happen after 3 seconds, force navigate to thank you page
-            if (window.location.pathname !== '/thank-you') {
-              console.log('Form redirect timeout - forcing navigation to /thank-you');
-              window.location.href = '/thank-you';
-            }
-          }, 3000);
         }
       }, true);
     </script>
@@ -183,14 +173,13 @@
     <div id="app"></div>
 
     <!-- Netlify Forms Hidden Form for Detection -->
-    <form name="injury-form" method="POST" data-netlify="true" action="/thank-you" style="display:none;">
+    <form name="injury-form" method="POST" data-netlify="true" style="display:none;">
       <input type="text" name="firstName" />
       <input type="text" name="lastName" />
       <input type="email" name="email" />
       <input type="tel" name="phone" />
       <textarea name="caseDescription"></textarea>
       <input type="hidden" name="form-name" value="injury-form" />
-      <input type="hidden" name="redirect" value="/thank-you" />
     </form>
 
     <script type="module" src="./src/index.tsx"></script>

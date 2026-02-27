@@ -3,6 +3,28 @@ import { Card, CardContent } from "../../../../components/ui/card";
 import { Quote, Star, MapPin, Phone, Clock } from "lucide-react";
 
 export const FooterSection = (): JSX.Element => {
+  const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const form = e.currentTarget;
+
+    // Submit the form to Netlify
+    const formData = new FormData(form);
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData as any).toString()
+    })
+    .then(() => {
+      console.log('✅ Form submitted successfully');
+      // Redirect to thank you page
+      window.location.href = '/thank-you';
+    })
+    .catch((error) => {
+      console.error('❌ Form submission error:', error);
+      // Still redirect to thank you page even if there's an error
+      window.location.href = '/thank-you';
+    });
+  };
+
   return (
     <section className="w-full bg-[#00417b] py-8 md:py-16">
         <div className="container mx-auto max-w-7xl px-4">
@@ -25,9 +47,9 @@ export const FooterSection = (): JSX.Element => {
                 name="injury-form"
                 data-netlify="true"
                 encType="application/x-www-form-urlencoded"
+                onSubmit={handleFormSubmit}
               >
                 <input type="hidden" name="form-name" value="injury-form" />
-                <input type="hidden" name="redirect" value="/thank-you" />
 
                 {/* Current UTM Parameters */}
                 <input type="hidden" name="utm_source" id="utm_source" />
