@@ -24,6 +24,7 @@ export const FooterSection = (): JSX.Element => {
                 id="contact-form"
                 name="injury-form"
                 data-netlify="true"
+                encType="application/x-www-form-urlencoded"
               >
                 <input type="hidden" name="form-name" value="injury-form" />
                 <input type="hidden" name="redirect" value="/thank-you.html" />
