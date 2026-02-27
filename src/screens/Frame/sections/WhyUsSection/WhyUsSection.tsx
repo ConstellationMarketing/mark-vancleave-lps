@@ -7,7 +7,7 @@ export const WhyUsSection = (): JSX.Element => {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-stretch">
           <div
-            className="w-full lg:w-[415px] bg-[url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F2289664be5be4b8b85cbffef0b372ea5?format=webp&width=800&height=1200)] bg-cover bg-[75%_center] rounded-md shadow-lg"
+            className="w-full lg:w-[415px] h-[300px] lg:h-auto bg-[url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F2289664be5be4b8b85cbffef0b372ea5?format=webp&width=800&height=1200)] bg-cover bg-[75%_center] rounded-md shadow-lg"
             aria-hidden="true"
           />
 
