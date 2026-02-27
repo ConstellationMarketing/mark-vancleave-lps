@@ -35,7 +35,7 @@ export const CallToActionMainSection = (): JSX.Element => {
             </p>
 
             {/* Call to Action Button */}
-            <div className="mb-6 md:mb-8">
+            <div>
               <a
                 href="tel:2813038800"
                 className="inline-block bg-[#d44600] hover:bg-[#c23900] text-white [font-family:'Roboto',Helvetica] text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:border-[#c23900] px-8 py-3 md:pt-[30px] md:pb-[30px] transition-colors duration-300 whitespace-nowrap"
@@ -43,17 +43,17 @@ export const CallToActionMainSection = (): JSX.Element => {
                 281-303-8800
               </a>
             </div>
-
-            {/* Additional Info */}
-            <div className="border-t border-white/20 pt-6 md:pt-8">
-              <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-white leading-[24px] md:leading-[27px] mb-2">
-                Free Consultation • No Upfront Fees • Work on Contingency
-              </p>
-              <p className="font-['Roboto',Helvetica] font-medium text-sm md:text-base text-[#cbd5e0] leading-[20px] md:leading-[24px]">
-                Serving Baytown, Channelview, La Porte, Highlands, Mont Belvieu & Greater Houston Area
-              </p>
-            </div>
           </div>
+        </div>
+
+        {/* Centered Info Section */}
+        <div className="text-center mt-12 md:mt-16 pt-8 md:pt-12 border-t border-white/20">
+          <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-white leading-[24px] md:leading-[27px] mb-3 md:mb-4">
+            Free Consultation • No Upfront Fees • Work on Contingency
+          </p>
+          <p className="font-['Roboto',Helvetica] font-medium text-sm md:text-base text-[#cbd5e0] leading-[20px] md:leading-[24px]">
+            Serving Baytown, Channelview, La Porte, Highlands, Mont Belvieu & Greater Houston Area
+          </p>
         </div>
       </div>
     </section>
