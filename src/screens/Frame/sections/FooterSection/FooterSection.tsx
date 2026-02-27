@@ -57,9 +57,24 @@ export const FooterSection = (): JSX.Element => {
                 <h4 className="font-['Montserrat',Helvetica] font-bold text-white text-base md:text-lg mb-3 md:mb-4">
                   Serving Areas
                 </h4>
-                <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
+                <p className="font-['Roboto',Helvetica] font-medium text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px] mb-4">
                   Baytown, Channelview, La Porte, Highlands, Mont Belvieu & Greater Houston Area
                 </p>
+
+                {/* Google Map */}
+                <div className="w-full h-[300px] md:h-[350px] rounded-lg overflow-hidden shadow-lg">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    frameBorder="0"
+                    title="Law Offices of Mark D. VanCleave Location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3436.8847694445445!2d-94.97524632346093!3d29.74587697058269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e1f1f1f1f1f1%3A0x1234567890abcdef!2s1300%20Rollingbrook%20Dr%20%23410%2C%20Baytown%2C%20TX%2077521!5e0!3m2!1sen!2sus!4v1234567890"
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-lg"
+                  ></iframe>
+                </div>
               </div>
             </div>
 
