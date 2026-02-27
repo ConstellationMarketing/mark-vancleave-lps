@@ -53,10 +53,6 @@ export const HeroSection = (): JSX.Element => {
         >
           Request a Free Case Evaluation
         </Button>
-
-        <p className="mt-4 [font-family:'Roboto',Helvetica] text-white text-[18px] text-center md:text-left">
-          Or call 281-303-8800
-        </p>
       </div>
     </section>
   );
