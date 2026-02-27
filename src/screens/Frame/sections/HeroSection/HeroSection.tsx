@@ -18,7 +18,7 @@ export const HeroSection = (): JSX.Element => {
         </div>
 
         {/* CTA Section */}
-        <div className="w-full md:w-auto h-[60px] md:h-[83px] bg-[#00417b] flex items-center justify-center px-2">
+        <div className="w-full md:w-auto h-[60px] md:h-[83px] bg-[#00417b] flex items-center justify-center px-2 md:px-8">
           <div className="flex flex-col items-center justify-center">
             <a
               href="tel:2813038800"
