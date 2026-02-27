@@ -118,14 +118,6 @@ export const WhyChooseUsSection = (): JSX.Element => {
             >
               Request Consultation
             </button>
-            <div className="text-center">
-              <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-lg">
-                281-303-8800
-              </p>
-              <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-sm">
-                No Upfront Fees • Contingency Basis
-              </p>
-            </div>
           </div>
         </div>
       </div>
