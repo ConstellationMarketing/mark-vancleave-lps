@@ -35,7 +35,7 @@ export const HeroSection = (): JSX.Element => {
 
       {/* Hero Content */}
       <div className="relative w-full max-w-[1130px] mx-auto mt-8 md:mt-[74px] pb-8 md:pb-[74px] px-4 md:px-8">
-        <h1 className="[text-shadow:0px_0px_6.9px_#00000066] [font-family:'Poppins',sans-serif] font-bold text-[#d44500] text-[30px] md:text-[60px] tracking-[0.5px] leading-[36px] md:leading-[72px] text-center md:text-left">
+        <h1 className="[text-shadow:0px_0px_6.9px_#00000066] [font-family:'Poppins',sans-serif] font-bold text-white text-[30px] md:text-[70px] tracking-[0.5px] leading-[1.1] text-center md:text-left">
           Injured in a Baytown Auto Accident? We Can Help You Seek Fair Compensation.
         </h1>
 
