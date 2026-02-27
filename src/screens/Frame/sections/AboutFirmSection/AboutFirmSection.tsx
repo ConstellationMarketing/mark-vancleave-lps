@@ -26,7 +26,7 @@ export const AboutFirmSection = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full py-16 md:py-20 bg-gradient-to-b from-neutral-50 to-white">
+    <section className="w-full py-16 md:py-20 bg-gradient-to-b from-neutral-50 to-[#f5f5f5]">
       <div className="max-w-6xl mx-auto px-4">
         {/* Highlights Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
