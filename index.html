@@ -125,6 +125,10 @@
           console.log('✅ Form validation passed');
           console.log('Submitting with Source:', source, 'Medium:', medium);
         }
+
+        // Allow form to submit and redirect to thank you page
+        // The form's data-netlify and redirect attributes will handle the submission
+        return true;
       }
 
       if (document.readyState === 'loading') {
@@ -132,14 +136,22 @@
           populateTrackingFields();
           const form = document.getElementById('contact-form');
           if (form) {
-            form.addEventListener('submit', handleFormSubmit);
+            form.addEventListener('submit', function(e) {
+              handleFormSubmit(e);
+              // Allow form submission to proceed naturally
+              // Netlify will handle redirect based on the redirect hidden input
+            });
           }
         });
       } else {
         populateTrackingFields();
         const form = document.getElementById('contact-form');
         if (form) {
-          form.addEventListener('submit', handleFormSubmit);
+          form.addEventListener('submit', function(e) {
+            handleFormSubmit(e);
+            // Allow form submission to proceed naturally
+            // Netlify will handle redirect based on the redirect hidden input
+          });
         }
       }
 
@@ -148,6 +160,23 @@
           setTimeout(populateTrackingFields, 100);
         }
       });
+
+      // Ensure proper redirect after form submission
+      document.addEventListener('submit', function(e) {
+        if (e.target && e.target.id === 'contact-form') {
+          // Populate fields before submit
+          populateTrackingFields();
+          // Let Netlify handle the form submission
+          // The form will submit normally and redirect via the hidden redirect input
+          setTimeout(function() {
+            // If redirect doesn't happen after 3 seconds, force navigate to thank you page
+            if (window.location.pathname !== '/thank-you') {
+              console.log('Form redirect timeout - forcing navigation to /thank-you');
+              window.location.href = '/thank-you';
+            }
+          }, 3000);
+        }
+      }, true);
     </script>
   </head>
   <body>
