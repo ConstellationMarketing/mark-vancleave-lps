@@ -154,13 +154,14 @@
     <div id="app"></div>
 
     <!-- Netlify Forms Hidden Form for Detection -->
-    <form name="injury-form" method="POST" data-netlify="true" style="display:none;">
+    <form name="injury-form" method="POST" data-netlify="true" action="/thank-you" style="display:none;">
       <input type="text" name="firstName" />
       <input type="text" name="lastName" />
       <input type="email" name="email" />
       <input type="tel" name="phone" />
       <textarea name="caseDescription"></textarea>
       <input type="hidden" name="form-name" value="injury-form" />
+      <input type="hidden" name="redirect" value="/thank-you" />
     </form>
 
     <script type="module" src="./src/index.tsx"></script>

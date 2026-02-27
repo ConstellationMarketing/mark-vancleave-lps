@@ -27,7 +27,7 @@ export const FooterSection = (): JSX.Element => {
                 encType="application/x-www-form-urlencoded"
               >
                 <input type="hidden" name="form-name" value="injury-form" />
-                <input type="hidden" name="redirect" value="/thank-you.html" />
+                <input type="hidden" name="redirect" value="/thank-you" />
 
                 {/* Current UTM Parameters */}
                 <input type="hidden" name="utm_source" id="utm_source" />
