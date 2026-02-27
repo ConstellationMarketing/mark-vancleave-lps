@@ -8,7 +8,7 @@ export const FooterSection = (): JSX.Element => {
         <div className="container mx-auto max-w-7xl px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
             {/* Left Side - Contact Form */}
-            <div id="contact-form" className="bg-white rounded-lg p-6 md:p-8 shadow-xl order-2 lg:order-1">
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-xl order-2 lg:order-1">
               <div className="mb-6 md:mb-8">
                 <h3 className="font-['Montserrat',Helvetica] font-bold text-[#091626] text-xl md:text-2xl mb-3 md:mb-4">
                   Arrange A Free Initial Consultation
@@ -23,7 +23,7 @@ export const FooterSection = (): JSX.Element => {
                 className="space-y-4 md:space-y-6"
                 id="contact-form"
                 name="injury-form"
-                netlify
+                data-netlify="true"
               >
                 <input type="hidden" name="form-name" value="injury-form" />
                 <input type="hidden" name="redirect" value="/thank-you.html" />
