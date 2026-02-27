@@ -10,9 +10,9 @@ export const CallToActionMainSection = (): JSX.Element => {
           {/* Left Column - Image */}
           <div className="w-full lg:w-[40%] flex items-center justify-center">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F4fdf862119ba4be19fa62e121ffb987c?format=webp&width=800&height=1200"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Ff4c1429b437c4e039596bad7d0c4d1e6?format=webp&width=800&height=1200"
               alt="Attorney Mark VanCleave"
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="w-full h-full object-cover rounded-lg shadow-lg"
             />
           </div>
 
