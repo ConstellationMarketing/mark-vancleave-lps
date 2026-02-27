@@ -85,7 +85,7 @@ export const AboutFirmSection = (): JSX.Element => {
             Schedule Your Free Consultation
           </h3>
           <p className="text-xl text-[#cbd5e0] mb-8 font-['Roboto',Helvetica] max-w-2xl mx-auto">
-            The phone call is free. Our Baytown law firm would love to hear your story and use our 25+ years of experience to help.
+            Speak directly with a dedicated local legal team that treats you with respect and compassion, not as just another file number.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
