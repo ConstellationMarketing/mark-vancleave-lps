@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
+import { Star, Award, ShieldCheck, BadgeCheck } from "lucide-react";
 
 export const HeroSectionTest = (): JSX.Element => {
   return (
@@ -48,22 +49,34 @@ export const HeroSectionTest = (): JSX.Element => {
         </p>
 
         {/* Trust Badges Row */}
-        <div className="mt-6 md:mt-8 flex flex-wrap justify-center md:justify-start gap-4 md:gap-6 items-center">
-          <div className="text-white text-center md:text-left">
-            <p className="text-sm md:text-base font-bold">4.9★</p>
-            <p className="text-xs md:text-sm">Google Reviews</p>
+        <div className="mt-6 md:mt-8 flex flex-wrap justify-center md:justify-start gap-6 md:gap-8 items-center">
+          <div className="flex items-center gap-3">
+            <Star className="w-6 h-6 md:w-8 md:h-8 text-[#d44500] fill-[#d44500] flex-shrink-0" />
+            <div className="text-white text-left">
+              <p className="text-sm md:text-base font-bold">4.9★</p>
+              <p className="text-xs md:text-sm">Google Reviews</p>
+            </div>
           </div>
-          <div className="text-white text-center md:text-left">
-            <p className="text-sm md:text-base font-bold">Texas State Bar</p>
-            <p className="text-xs md:text-sm">Licensed Attorney</p>
+          <div className="flex items-center gap-3">
+            <Award className="w-6 h-6 md:w-8 md:h-8 text-[#d44500] flex-shrink-0" />
+            <div className="text-white text-left">
+              <p className="text-sm md:text-base font-bold">Texas State Bar</p>
+              <p className="text-xs md:text-sm">Licensed Attorney</p>
+            </div>
           </div>
-          <div className="text-white text-center md:text-left">
-            <p className="text-sm md:text-base font-bold">AVVO</p>
-            <p className="text-xs md:text-sm">Rated</p>
+          <div className="flex items-center gap-3">
+            <BadgeCheck className="w-6 h-6 md:w-8 md:h-8 text-[#d44500] flex-shrink-0" />
+            <div className="text-white text-left">
+              <p className="text-sm md:text-base font-bold">AVVO</p>
+              <p className="text-xs md:text-sm">Rated</p>
+            </div>
           </div>
-          <div className="text-white text-center md:text-left">
-            <p className="text-sm md:text-base font-bold">BBB</p>
-            <p className="text-xs md:text-sm">Accredited</p>
+          <div className="flex items-center gap-3">
+            <ShieldCheck className="w-6 h-6 md:w-8 md:h-8 text-[#d44500] flex-shrink-0" />
+            <div className="text-white text-left">
+              <p className="text-sm md:text-base font-bold">BBB</p>
+              <p className="text-xs md:text-sm">Accredited</p>
+            </div>
           </div>
         </div>
 
