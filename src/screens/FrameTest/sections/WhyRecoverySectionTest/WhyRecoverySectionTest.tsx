@@ -27,9 +27,9 @@ export const WhyRecoverySectionTest = (): JSX.Element => {
   return (
     <section className="w-full py-8 md:py-12 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
-        <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-stretch">
+        <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-center lg:items-stretch">
           {/* Left Column - Why Recovery Content */}
-          <div className="w-full lg:w-[50%] space-y-4 md:space-y-6 text-center lg:text-left">
+          <div className="w-full lg:w-[50%] space-y-4 md:space-y-6 text-center lg:text-left flex flex-col justify-center">
             <h2 className="font-bold text-[24px] md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
               Why Your Recovery is Our Priority
             </h2>
