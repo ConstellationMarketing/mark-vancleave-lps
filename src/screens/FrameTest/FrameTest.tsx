@@ -12,7 +12,7 @@ import { DisclaimerSectionTest } from "./sections/DisclaimerSectionTest/Disclaim
 
 export const FrameTest = (): JSX.Element => {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white overflow-x-hidden">
       <div className="flex flex-col">
         <HeroSectionTest />
         <LogoSliderSectionTest />

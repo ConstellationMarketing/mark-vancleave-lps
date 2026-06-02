@@ -25,7 +25,7 @@ export const LogoSliderSectionTest = (): JSX.Element => {
   ];
 
   return (
-    <div style={{ maxWidth: '1066px', margin: '0 auto', overflow: 'hidden', padding: '40px 0' }}>
+    <div style={{ maxWidth: '1066px', margin: '0 auto', overflow: 'hidden', padding: '40px 0', width: '100%', boxSizing: 'border-box' }}>
       <style>{`
         @keyframes ticker {
           0% { transform: translateX(0); }
