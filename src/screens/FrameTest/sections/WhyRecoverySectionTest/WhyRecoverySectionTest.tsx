@@ -29,7 +29,7 @@ export const WhyRecoverySectionTest = (): JSX.Element => {
       <div className="container mx-auto max-w-6xl px-4">
         <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-center lg:items-stretch">
           {/* Left Column - Why Recovery Content */}
-          <div className="w-full lg:w-[50%] space-y-4 md:space-y-6 text-center lg:text-left flex flex-col justify-center">
+          <div className="w-full lg:w-[50%] space-y-4 md:space-y-6 text-center flex flex-col justify-center items-center lg:items-start lg:text-left">
             <h2 className="font-bold text-[24px] md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
               Why Your Recovery is Our Priority
             </h2>
@@ -42,17 +42,17 @@ export const WhyRecoverySectionTest = (): JSX.Element => {
               You do not have to navigate this alone. At the Law Offices of Mark D. VanCleave, PLLC, our priority is your recovery. We focus on fairness and guiding you through the legal process so you can focus on healing.
             </p>
 
-            <ul className="space-y-3 mt-6">
-              <li className="flex items-start gap-3">
-                <span className="text-[#d44500] font-bold">✓</span>
+            <ul className="space-y-3 mt-6 w-full">
+              <li className="flex items-start gap-3 justify-center lg:justify-start">
+                <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base md:text-lg text-[#222125] [font-family:'Roboto',Helvetica]">Over 25 years of personal injury and auto accident experience.</span>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="text-[#d44500] font-bold">✓</span>
+              <li className="flex items-start gap-3 justify-center lg:justify-start">
+                <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base md:text-lg text-[#222125] [font-family:'Roboto',Helvetica]">Local Baytown office serving the immediate community.</span>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="text-[#d44500] font-bold">✓</span>
+              <li className="flex items-start gap-3 justify-center lg:justify-start">
+                <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base md:text-lg text-[#222125] [font-family:'Roboto',Helvetica]">Handled on a contingency fee basis—no upfront fees and you pay no attorney fees unless we help you recover damages.*</span>
               </li>
             </ul>
