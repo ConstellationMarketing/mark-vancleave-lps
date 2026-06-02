@@ -54,35 +54,35 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
         {/* Service Highlights */}
         <div className="pt-12 mt-12 border-t border-white/20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
-          <div>
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <h3 className="font-bold text-xl text-[#091626] mb-6 font-['Montserrat',Helvetica]">
               Service Highlights:
             </h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
+            <ul className="space-y-4 w-full">
+              <li className="flex items-start gap-3 justify-center md:justify-start">
                 <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base text-[#222125] [font-family:'Roboto',Helvetica]">Over 25 years of personal injury and auto accident experience.</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 justify-center md:justify-start">
                 <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base text-[#222125] [font-family:'Roboto',Helvetica]">Local Baytown office serving the immediate community.</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 justify-center md:justify-start">
                 <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base text-[#222125] [font-family:'Roboto',Helvetica]">No upfront fees—you only pay if we win your case.</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 justify-center md:justify-start">
                 <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base text-[#222125] [font-family:'Roboto',Helvetica]">Aggressive advocacy against insurance companies.</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li className="flex items-start gap-3 justify-center md:justify-start">
                 <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base text-[#222125] [font-family:'Roboto',Helvetica]">Compassionate, straightforward legal guidance.</span>
               </li>
             </ul>
           </div>
 
-          <div className="bg-[#00417b] rounded-2xl p-8 text-white h-full">
+          <div className="bg-[#00417b] rounded-2xl p-8 text-white h-full flex flex-col text-center md:text-left">
             <h3 className="text-2xl font-bold mb-4 font-['Montserrat',Helvetica]">
               Ready to Move Forward?
             </h3>

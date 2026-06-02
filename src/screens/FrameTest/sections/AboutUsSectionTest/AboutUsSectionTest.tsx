@@ -7,8 +7,8 @@ export const AboutUsSectionTest = (): JSX.Element => {
         <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-stretch">
           <div className="w-full lg:w-[50%] h-[300px] lg:h-auto bg-[url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F2289664be5be4b8b85cbffef0b372ea5?format=webp&width=800&height=1200)] bg-cover bg-[75%_center] rounded-md shadow-lg" aria-hidden="true" />
 
-          <div className="w-full lg:w-[50%] space-y-4 md:space-y-6 text-center lg:text-left">
-            <h2 className="font-bold text-[24px] md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
+          <div className="w-full lg:w-[50%] space-y-4 md:space-y-6 text-center lg:text-left flex flex-col justify-center items-center lg:items-start">
+            <h2 className="font-bold text-[24px] md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica] text-center lg:text-left">
               About Law Offices of Mark D. VanCleave, PLLC
             </h2>
 
