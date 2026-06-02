@@ -22,7 +22,7 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full py-20 bg-gradient-to-b from-white to-neutral-50">
+    <section className="w-full py-20 bg-[#f5f5f5]">
       <div className="container mx-auto max-w-6xl px-4">
         {/* Header */}
         <div className="text-center mb-16">
@@ -35,14 +35,14 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
             {highlights.map((highlight, index) => {
               const IconComponent = highlight.icon;
               return (
-                <div key={index} className="text-center">
-                  <div className="flex justify-center mb-4">
-                    <IconComponent className="w-12 h-12 md:w-14 md:h-14 text-[#d44500]" />
+                <div key={index} className="bg-white rounded-lg p-8 text-center flex flex-col h-full shadow-sm">
+                  <div className="flex justify-center mb-6">
+                    <IconComponent className="w-12 h-12 md:w-14 md:h-14 text-[#d44500] flex-shrink-0" />
                   </div>
-                  <h3 className="text-base md:text-lg font-bold text-[#091626] mb-3 font-['Montserrat',Helvetica]">
+                  <h3 className="text-base md:text-lg font-bold text-[#091626] mb-4 font-['Montserrat',Helvetica]">
                     {highlight.title}
                   </h3>
-                  <p className="text-sm md:text-base text-[#222125] font-['Roboto',Helvetica] leading-[20px] md:leading-[24px]">
+                  <p className="text-sm md:text-base text-[#222125] font-['Roboto',Helvetica] leading-[20px] md:leading-[24px] flex-grow">
                     {highlight.description}
                   </p>
                 </div>
