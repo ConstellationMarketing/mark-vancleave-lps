@@ -47,8 +47,15 @@ export const HeroSectionTest = (): JSX.Element => {
           No upfront fees—you only pay if we win your case.*
         </p>
 
-        {/* Google Rating Badge */}
-        <div className="mt-6 md:mt-8 flex justify-center md:justify-start items-center">
+        {/* CTA and Google Badge Row */}
+        <div className="mt-6 md:mt-[38px] flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 md:gap-8">
+          <Button
+            className="w-full md:w-auto h-[90px] md:h-[70px] flex items-center justify-center !px-8 !pt-0 !pb-0 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
+            onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Request a Free Case Evaluation
+          </Button>
+
           <div className="flex items-center gap-3">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fd4f220a6a205468c8472cfb9e2833491?format=webp&width=800&height=1200"
@@ -61,13 +68,6 @@ export const HeroSectionTest = (): JSX.Element => {
             </div>
           </div>
         </div>
-
-        <Button
-          className="mt-6 md:mt-[38px] w-full md:w-auto h-[90px] md:h-[70px] flex items-center justify-center !px-8 !pt-0 !pb-0 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
-          onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-        >
-          Request a Free Case Evaluation
-        </Button>
       </div>
     </section>
   );
