@@ -25,18 +25,25 @@ export const LogoSliderSectionTest = (): JSX.Element => {
   ];
 
   return (
-    <section className="w-full bg-white">
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: '48px',
-        flexWrap: 'wrap',
-        padding: '40px 24px',
-        maxWidth: '1280px',
-        margin: '0 auto'
-      }}>
-        {logos.map((logo, i) => (
+    <section style={{ width: '100%', overflow: 'hidden', padding: '40px 0' }}>
+      <style>{`
+        @keyframes ticker {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .logo-ticker {
+          display: flex;
+          align-items: center;
+          gap: 80px;
+          width: max-content;
+          animation: ticker 20s linear infinite;
+        }
+        .logo-ticker:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
+      <div className="logo-ticker">
+        {[...logos, ...logos].map((logo, i) => (
           <img
             key={i}
             src={logo.url}
@@ -45,7 +52,7 @@ export const LogoSliderSectionTest = (): JSX.Element => {
               height: '80px',
               width: 'auto',
               objectFit: 'contain',
-              filter: 'grayscale(0%)'
+              flexShrink: 0
             }}
           />
         ))}
