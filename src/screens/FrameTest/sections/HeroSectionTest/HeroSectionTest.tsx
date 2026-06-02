@@ -34,7 +34,7 @@ export const HeroSectionTest = (): JSX.Element => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative w-full max-w-[1130px] mx-auto mt-8 md:mt-[74px] pb-8 md:pb-[74px] px-4 md:px-8">
+      <div className="relative w-full max-w-[1130px] mx-auto mt-4 md:mt-[74px] pb-4 md:pb-[74px] px-4 md:px-8">
         <h1 className="[text-shadow:0px_0px_6.9px_#00000066] [font-family:'Poppins',sans-serif] font-bold text-white text-[30px] md:text-[70px] tracking-[0.5px] leading-[1.1] text-center md:text-left">
           Baytown Auto Accident Lawyer: 25+ Years Fighting For Your Fair Compensation
         </h1>
@@ -48,7 +48,7 @@ export const HeroSectionTest = (): JSX.Element => {
         </p>
 
         {/* CTA and Google Badge Row */}
-        <div className="mt-6 md:mt-[38px] flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 md:gap-8">
+        <div className="mt-3 md:mt-[38px] flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
           <Button
             className="w-full md:w-auto h-[90px] md:h-[70px] flex items-center justify-center !px-8 !pt-0 !pb-0 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
