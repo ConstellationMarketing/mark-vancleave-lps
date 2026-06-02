@@ -24,6 +24,9 @@ export const LogoSliderSectionTest = (): JSX.Element => {
     }
   ];
 
+  // Create extended array to show 4 items with 5th one sliding in
+  const extendedLogos = [...logos, ...logos];
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -34,32 +37,35 @@ export const LogoSliderSectionTest = (): JSX.Element => {
     return () => clearInterval(interval);
   }, [logos.length]);
 
-  const goToSlide = (index: number) => {
-    setCurrentIndex(index);
-  };
-
   return (
     <section className="w-full py-12 md:py-16 bg-white">
       <div className="container mx-auto max-w-6xl px-4">
         {/* Logo Carousel */}
-        <div className="relative">
-          <div className="overflow-hidden rounded-lg bg-gray-50 p-8 md:p-12">
-            {/* Slides */}
-            <div className="flex justify-center items-center min-h-[200px] md:min-h-[250px]">
-              {logos.map((logo, index) => (
-                <div
-                  key={index}
-                  className={`absolute transition-opacity duration-1000 ease-in-out ${
-                    index === currentIndex ? "opacity-100" : "opacity-0"
-                  }`}
-                >
-                  <img
-                    src={logo.url}
-                    alt={logo.name}
-                    className="h-[150px] md:h-[200px] w-auto object-contain"
-                  />
-                </div>
-              ))}
+        <div className="relative overflow-hidden">
+          <div className="bg-gray-50 p-8 md:p-12 rounded-lg">
+            {/* Carousel Container */}
+            <div className="overflow-hidden">
+              <div
+                className="flex gap-6 md:gap-8 transition-transform duration-700 ease-in-out"
+                style={{
+                  transform: `translateX(-${currentIndex * (100 / 4)}%)`,
+                  width: `${(extendedLogos.length * 100) / 4}%`
+                }}
+              >
+                {extendedLogos.map((logo, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center justify-center flex-shrink-0"
+                    style={{ width: "25%" }}
+                  >
+                    <img
+                      src={logo.url}
+                      alt={logo.name}
+                      className="h-[120px] md:h-[150px] w-auto object-contain"
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -68,7 +74,7 @@ export const LogoSliderSectionTest = (): JSX.Element => {
             {logos.map((_, index) => (
               <button
                 key={index}
-                onClick={() => goToSlide(index)}
+                onClick={() => setCurrentIndex(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
                   index === currentIndex
                     ? "bg-[#d44500] w-8"
