@@ -25,7 +25,7 @@ export const LogoSliderSectionTest = (): JSX.Element => {
   ];
 
   return (
-    <section style={{ width: '100%', overflow: 'hidden', padding: '40px 0' }}>
+    <div style={{ maxWidth: '1280px', margin: '0 auto', overflow: 'hidden', padding: '40px 0' }}>
       <style>{`
         @keyframes ticker {
           0% { transform: translateX(0); }
@@ -34,9 +34,9 @@ export const LogoSliderSectionTest = (): JSX.Element => {
         .logo-ticker {
           display: flex;
           align-items: center;
-          gap: 80px;
+          gap: 64px;
           width: max-content;
-          animation: ticker 20s linear infinite;
+          animation: ticker 25s linear infinite;
         }
         .logo-ticker:hover {
           animation-play-state: paused;
@@ -57,6 +57,6 @@ export const LogoSliderSectionTest = (): JSX.Element => {
           />
         ))}
       </div>
-    </section>
+    </div>
   );
 };
