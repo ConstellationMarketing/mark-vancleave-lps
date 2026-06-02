@@ -3,7 +3,7 @@ import { Button } from "../../../../components/ui/button";
 
 export const PrimaryCTASectionTest = (): JSX.Element => {
   return (
-    <section className="w-full py-12 md:py-20 bg-white">
+    <section className="w-full py-12 md:py-20 bg-[#f5f5f5]">
       <div className="container mx-auto max-w-6xl px-4 text-center">
         <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-[#091626] mb-6 md:mb-8 [font-family:'Montserrat',Helvetica] leading-[28px] md:leading-[35px] lg:leading-[44px]">
           Discuss Your Options With an Experienced Personal Injury Attorney
