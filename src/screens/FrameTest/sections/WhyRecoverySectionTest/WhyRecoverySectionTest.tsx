@@ -30,15 +30,15 @@ export const WhyRecoverySectionTest = (): JSX.Element => {
         <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-center lg:items-stretch">
           {/* Left Column - Why Recovery Content */}
           <div className="w-full lg:w-[50%] space-y-4 md:space-y-6 text-center flex flex-col justify-center items-center lg:items-start lg:text-left">
-            <h2 className="font-bold text-[24px] md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica]">
+            <h2 className="font-bold text-[24px] md:text-3xl lg:text-4xl text-[#091626] leading-[28px] md:leading-[35px] lg:leading-[39.6px] [font-family:'Montserrat',Helvetica] text-center lg:text-left">
               Why Your Recovery is Our Priority
             </h2>
 
-            <p className="font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] [font-family:'Roboto',Helvetica]">
+            <p className="font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] [font-family:'Roboto',Helvetica] text-center lg:text-left">
               Suffering a serious injury can turn your life upside down. Between physical pain, mounting medical bills, and lost wages, the process can feel overwhelming.
             </p>
 
-            <p className="font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] [font-family:'Roboto',Helvetica]">
+            <p className="font-medium text-base md:text-lg text-[#222125] leading-[24px] md:leading-[27px] [font-family:'Roboto',Helvetica] text-center lg:text-left">
               You do not have to navigate this alone. At the Law Offices of Mark D. VanCleave, PLLC, our priority is your recovery. We focus on fairness and guiding you through the legal process so you can focus on healing.
             </p>
 
