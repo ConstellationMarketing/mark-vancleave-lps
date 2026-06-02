@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 export const LogoSliderSectionTest = (): JSX.Element => {
   const logos = [
@@ -24,67 +24,31 @@ export const LogoSliderSectionTest = (): JSX.Element => {
     }
   ];
 
-  // Create extended array to show 4 items with 5th one sliding in
-  const extendedLogos = [...logos, ...logos];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % logos.length);
-    }, 4000); // Auto-slide every 4 seconds
-
-    return () => clearInterval(interval);
-  }, [logos.length]);
-
   return (
-    <section className="w-full py-12 md:py-16 bg-white">
-      <div className="container mx-auto max-w-6xl px-4">
-        {/* Logo Carousel */}
-        <div className="relative overflow-hidden">
-          <div className="bg-gray-50 p-8 md:p-12 rounded-lg">
-            {/* Carousel Container */}
-            <div className="overflow-hidden">
-              <div
-                className="flex transition-transform duration-700 ease-in-out"
-                style={{
-                  transform: `translateX(-${currentIndex * 25}%)`,
-                  width: `${extendedLogos.length * 25}%`
-                }}
-              >
-                {extendedLogos.map((logo, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center justify-center flex-shrink-0 px-3 md:px-4"
-                    style={{ width: "25%" }}
-                  >
-                    <img
-                      src={logo.url}
-                      alt={logo.name}
-                      className="h-[120px] md:h-[150px] w-auto object-contain"
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Dots Navigation */}
-          <div className="flex justify-center gap-2 mt-8">
-            {logos.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentIndex(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentIndex
-                    ? "bg-[#d44500] w-8"
-                    : "bg-gray-300 hover:bg-gray-400"
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
-        </div>
+    <section className="w-full bg-white">
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: '48px',
+        flexWrap: 'wrap',
+        padding: '40px 24px',
+        maxWidth: '1280px',
+        margin: '0 auto'
+      }}>
+        {logos.map((logo, i) => (
+          <img
+            key={i}
+            src={logo.url}
+            alt={logo.name}
+            style={{
+              height: '80px',
+              width: 'auto',
+              objectFit: 'contain',
+              filter: 'grayscale(0%)'
+            }}
+          />
+        ))}
       </div>
     </section>
   );
