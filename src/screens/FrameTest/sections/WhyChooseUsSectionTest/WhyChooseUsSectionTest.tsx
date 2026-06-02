@@ -52,12 +52,13 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
         </div>
 
         {/* Service Highlights */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div className="pt-12 mt-12 border-t border-white/20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
           <div>
-            <h3 className="font-bold text-xl text-[#091626] mb-4 font-['Montserrat',Helvetica]">
+            <h3 className="font-bold text-xl text-[#091626] mb-6 font-['Montserrat',Helvetica]">
               Service Highlights:
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
                 <span className="font-medium text-base text-[#222125] [font-family:'Roboto',Helvetica]">Over 25 years of personal injury and auto accident experience.</span>
@@ -81,7 +82,7 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
             </ul>
           </div>
 
-          <div className="bg-[#00417b] rounded-2xl p-8 text-white">
+          <div className="bg-[#00417b] rounded-2xl p-8 text-white h-full">
             <h3 className="text-2xl font-bold mb-4 font-['Montserrat',Helvetica]">
               Ready to Move Forward?
             </h3>
@@ -103,6 +104,7 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
               </button>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
