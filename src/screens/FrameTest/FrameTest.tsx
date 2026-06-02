@@ -9,10 +9,11 @@ import { MeetAttorneySectionTest } from "./sections/MeetAttorneySectionTest/Meet
 import { WhyChooseUsSectionTest } from "./sections/WhyChooseUsSectionTest/WhyChooseUsSectionTest";
 import { FooterSectionTest } from "./sections/FooterSectionTest/FooterSectionTest";
 import { DisclaimerSectionTest } from "./sections/DisclaimerSectionTest/DisclaimerSectionTest";
+import { StickyCTASectionTest } from "./sections/StickyCTASectionTest/StickyCTASectionTest";
 
 export const FrameTest = (): JSX.Element => {
   return (
-    <div className="w-full bg-white overflow-x-hidden">
+    <div className="w-full bg-white overflow-x-hidden pb-[80px] md:pb-[72px]">
       <div className="flex flex-col">
         <HeroSectionTest />
         <LogoSliderSectionTest />
@@ -25,6 +26,7 @@ export const FrameTest = (): JSX.Element => {
         <FooterSectionTest />
         <DisclaimerSectionTest />
       </div>
+      <StickyCTASectionTest />
     </div>
   );
 };
