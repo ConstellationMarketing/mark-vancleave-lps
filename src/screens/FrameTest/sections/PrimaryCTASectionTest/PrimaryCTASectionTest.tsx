@@ -16,12 +16,12 @@ export const PrimaryCTASectionTest = (): JSX.Element => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a
             href="tel:2813038800"
-            className="flex items-center justify-center w-full sm:w-auto px-8 pt-[30px] pb-[30px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
+            className="flex items-center justify-center w-full sm:w-auto h-[90px] md:h-[90px] px-8 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
           >
             Call Now: 281-303-8800
           </a>
           <Button
-            className="w-full sm:w-auto !px-8 !pt-[30px] !pb-[30px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
+            className="w-full sm:w-auto h-[90px] md:h-[90px] flex items-center justify-center !px-8 !pt-0 !pb-0 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Request Free Consultation

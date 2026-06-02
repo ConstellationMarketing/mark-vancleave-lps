@@ -192,7 +192,7 @@ export const WhyRecoverySectionTest = (): JSX.Element => {
 
               <button
                 type="submit"
-                className="w-full !px-8 !pt-[30px] !pb-[30px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
+                className="flex items-center justify-center w-full h-[90px] md:h-[90px] px-8 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
               >
                 REQUEST A CONSULTATION
               </button>
