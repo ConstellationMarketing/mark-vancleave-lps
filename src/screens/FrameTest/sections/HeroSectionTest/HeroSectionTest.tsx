@@ -63,7 +63,7 @@ export const HeroSectionTest = (): JSX.Element => {
               className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
             />
             <div className="text-white text-left">
-              <p className="text-sm md:text-base font-bold">4.9★</p>
+              <p className="text-sm md:text-base font-bold">4.9 ★</p>
               <p className="text-xs md:text-sm">Google Reviews</p>
             </div>
           </div>

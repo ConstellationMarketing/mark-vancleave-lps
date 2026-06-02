@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "central-rock-immolp8r",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "central-rock-immolp8r": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "central-rock-immolp8r",
+    "origin"
+  ]
+}
