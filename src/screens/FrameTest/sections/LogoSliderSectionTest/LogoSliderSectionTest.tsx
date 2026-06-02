@@ -49,7 +49,7 @@ export const LogoSliderSectionTest = (): JSX.Element => {
             src={logo.url}
             alt={logo.name}
             style={{
-              height: '120px',
+              height: '84px',
               width: 'auto',
               objectFit: 'contain',
               flexShrink: 0
