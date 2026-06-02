@@ -87,7 +87,7 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
               </a>
               <button
                 onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-                className="block w-full text-center px-8 pt-[30px] pb-[30px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
+                className="block w-full text-center !px-8 !pt-[30px] !pb-[30px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
               >
                 Request Consultation
               </button>
