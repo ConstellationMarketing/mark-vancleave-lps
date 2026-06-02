@@ -62,7 +62,7 @@ export const WhyRecoverySectionTest = (): JSX.Element => {
           <div className="w-full lg:w-[50%] bg-white rounded-lg p-6 md:p-8 shadow-xl">
             <div className="mb-6 md:mb-8">
               <h3 className="font-['Montserrat',Helvetica] font-bold text-[#091626] text-xl md:text-2xl mb-3 md:mb-4">
-                Low-Friction Case Evaluation Form
+                Arrange A Free Initial Consultation
               </h3>
               <p className="font-['Roboto',Helvetica] text-[#222125] text-sm md:text-base leading-[20px] md:leading-[24px]">
                 Tell us about your case. We'll review your situation and contact you shortly.
