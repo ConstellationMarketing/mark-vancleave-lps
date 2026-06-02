@@ -46,16 +46,16 @@ export const LogoSliderSectionTest = (): JSX.Element => {
             {/* Carousel Container */}
             <div className="overflow-hidden">
               <div
-                className="flex gap-6 md:gap-8 transition-transform duration-700 ease-in-out"
+                className="flex transition-transform duration-700 ease-in-out"
                 style={{
-                  transform: `translateX(-${currentIndex * (100 / 4)}%)`,
-                  width: `${(extendedLogos.length * 100) / 4}%`
+                  transform: `translateX(-${currentIndex * 25}%)`,
+                  width: `${extendedLogos.length * 25}%`
                 }}
               >
                 {extendedLogos.map((logo, index) => (
                   <div
                     key={index}
-                    className="flex items-center justify-center flex-shrink-0"
+                    className="flex items-center justify-center flex-shrink-0 px-3 md:px-4"
                     style={{ width: "25%" }}
                   >
                     <img
