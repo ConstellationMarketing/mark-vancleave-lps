@@ -25,7 +25,7 @@ export const LogoSliderSectionTest = (): JSX.Element => {
   ];
 
   return (
-    <div style={{ maxWidth: '1280px', margin: '0 auto', overflow: 'hidden', padding: '40px 0' }}>
+    <div style={{ maxWidth: '1066px', margin: '0 auto', overflow: 'hidden', padding: '40px 0' }}>
       <style>{`
         @keyframes ticker {
           0% { transform: translateX(0); }
@@ -49,7 +49,7 @@ export const LogoSliderSectionTest = (): JSX.Element => {
             src={logo.url}
             alt={logo.name}
             style={{
-              height: '80px',
+              height: '120px',
               width: 'auto',
               objectFit: 'contain',
               flexShrink: 0
