@@ -1,17 +1,21 @@
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
+import { Lightbulb, MapPin, ShieldCheck } from "lucide-react";
 
 export const WhyChooseUsSectionTest = (): JSX.Element => {
   const highlights = [
     {
+      icon: Lightbulb,
       title: "Tailored Strategy",
       description: "No two accidents are the same, and no two injuries should be treated the same. We take the time to listen to your specific situation before formulating a strategy—whether that requires a swift settlement negotiation or an aggressive court battle."
     },
     {
+      icon: MapPin,
       title: "True Local Knowledge",
       description: "Because we are located right here in Baytown, we understand the local roadways, industrial areas, and community."
     },
     {
+      icon: ShieldCheck,
       title: "100% Risk-Free*",
       description: "We believe in full transparency. We handle personal injury cases on a contingency fee basis, meaning we charge no upfront payment, and you will not pay attorney fees unless we help you recover damages."
     }
@@ -25,19 +29,25 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
           <h2 className="text-[24px] md:text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[28px] md:leading-[50px]">
             Why Choose Us for Your Injury Claim
           </h2>
-          <div className="w-24 h-1 bg-[#d44500] mx-auto mb-8"></div>
-          
-          <div className="space-y-4">
-            {highlights.map((highlight, index) => (
-              <div key={index} className="max-w-3xl mx-auto">
-                <h3 className="text-base md:text-lg font-bold text-[#091626] mb-2 font-['Montserrat',Helvetica]">
-                  {highlight.title}
-                </h3>
-                <p className="text-base md:text-lg text-[#222125] font-['Roboto',Helvetica] leading-[24px] md:leading-[27px]">
-                  {highlight.description}
-                </p>
-              </div>
-            ))}
+          <div className="w-24 h-1 bg-[#d44500] mx-auto mb-12"></div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {highlights.map((highlight, index) => {
+              const IconComponent = highlight.icon;
+              return (
+                <div key={index} className="text-center">
+                  <div className="flex justify-center mb-4">
+                    <IconComponent className="w-12 h-12 md:w-14 md:h-14 text-[#d44500]" />
+                  </div>
+                  <h3 className="text-base md:text-lg font-bold text-[#091626] mb-3 font-['Montserrat',Helvetica]">
+                    {highlight.title}
+                  </h3>
+                  <p className="text-sm md:text-base text-[#222125] font-['Roboto',Helvetica] leading-[20px] md:leading-[24px]">
+                    {highlight.description}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </div>
 
