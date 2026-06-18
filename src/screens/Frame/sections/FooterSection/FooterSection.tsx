@@ -144,7 +144,7 @@ export const FooterSection = (): JSX.Element => {
                       required
                       name="phone"
                       className="w-full px-3 md:px-4 py-2 md:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d44500] focus:border-transparent transition-all duration-300 font-['Roboto',Helvetica] text-sm md:text-base"
-                      placeholder="(281) 303-8800"
+                      placeholder="(281) 764-2276"
                     />
                   </div>
                   <div>
@@ -222,10 +222,10 @@ export const FooterSection = (): JSX.Element => {
                       Call Now
                     </h4>
                     <a
-                      href="tel:2813038800"
+                      href="tel:2817642276"
                       className="font-['Roboto',Helvetica] font-bold text-[#d44500] text-lg md:text-xl hover:text-white transition-colors duration-300"
                     >
-                      281-303-8800
+                      (281) 764-2276
                     </a>
                   </div>
                 </div>

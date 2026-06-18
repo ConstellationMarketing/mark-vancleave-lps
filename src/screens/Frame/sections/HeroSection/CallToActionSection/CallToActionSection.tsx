@@ -17,10 +17,10 @@ export const CallToActionSection = (): JSX.Element => {
         <div className="absolute h-[60px] md:h-[83px] top-0 right-0 bg-[#182246] flex items-center">
           <div className="w-[160px] md:w-[216px] h-[60px] md:h-[83px] bg-[#182246] flex flex-col items-center justify-center px-2">
             <a 
-              href="tel:5551234567"
+              href="tel:2817642276"
               className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Roboto',Helvetica] font-medium text-white hover:text-[#ff8a00] transition-colors duration-300"
             >
-              (555) 123-4567
+              (281) 764-2276
             </a>
             <p className="mt-1 [font-family:'Playfair_Display',Helvetica] font-medium text-white text-[8px] md:text-[11px] text-center tracking-[2px] md:tracking-[4.00px] leading-[12px] md:leading-[19.8px]">
               CALL YOUR ATTORNEY

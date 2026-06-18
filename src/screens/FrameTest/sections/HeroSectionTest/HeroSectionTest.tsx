@@ -21,10 +21,10 @@ export const HeroSectionTest = (): JSX.Element => {
         <div className="w-full md:w-auto h-[60px] md:h-[83px] bg-[#00417b] flex items-center justify-center px-2 md:px-8">
           <div className="flex flex-col items-center justify-center">
             <a
-              href="tel:2813038800"
+              href="tel:2817642276"
               className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Roboto',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
             >
-              (281) 303-8800
+              (281) 764-2276
             </a>
             <p className="mt-1 [font-family:'Roboto',Helvetica] font-medium text-white text-[9px] md:text-[12px] text-center tracking-[1.5px] md:tracking-[2px] leading-[12px] md:leading-[16px]">
               CALL YOUR ATTORNEY

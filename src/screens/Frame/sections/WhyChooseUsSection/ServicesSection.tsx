@@ -104,10 +104,10 @@ export const ServicesSection = (): JSX.Element => {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a 
-              href="tel:5551234567"
+              href="tel:2817642276"
               className="bg-[#ff8a00] hover:bg-[#e67d00] text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
-              Call Now: (555) 123-4567
+              Call Now: (281) 764-2276
             </a>
             <button 
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
@@ -117,7 +117,7 @@ export const ServicesSection = (): JSX.Element => {
             </button>
             <div className="text-center">
               <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-lg">
-                (555) 123-4567
+                (281) 764-2276
               </p>
               <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-sm">
                 Available 24/7 • No Obligation

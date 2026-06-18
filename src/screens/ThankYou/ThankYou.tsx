@@ -24,10 +24,10 @@ export const ThankYou = (): JSX.Element => {
             <div className="w-full md:w-auto h-[60px] md:h-[83px] bg-[#00417b] flex items-center justify-center px-2 md:px-8">
               <div className="flex flex-col items-center justify-center">
                 <a
-                  href="tel:2813038800"
+                  href="tel:2817642276"
                   className="text-sm md:text-[21px] text-center tracking-[1px] md:tracking-[3.00px] leading-[16px] md:leading-[23.1px] [font-family:'Roboto',Helvetica] font-bold text-white hover:text-[#d44500] transition-colors duration-300"
                 >
-                  (281) 303-8800
+                  (281) 764-2276
                 </a>
                 <p className="mt-1 [font-family:'Roboto',Helvetica] font-medium text-white text-[9px] md:text-[12px] text-center tracking-[1.5px] md:tracking-[2px] leading-[12px] md:leading-[16px]">
                   CALL YOUR ATTORNEY
@@ -72,7 +72,7 @@ export const ThankYou = (): JSX.Element => {
                       Watch for a call
                     </h4>
                     <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs md:text-sm leading-[18px] md:leading-[20px]">
-                      Watch for a call from our Baytown office (281-303-8800).
+                      Watch for a call from our Baytown office (281) 764-2276.
                     </p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export const ThankYou = (): JSX.Element => {
                     Need to reach us before we call?
                   </h4>
                   <p className="font-['Roboto',Helvetica] text-[#222125] text-xs md:text-sm mt-1">
-                    Call us anytime at <a href="tel:2813038800" className="font-bold underline">281-303-8800</a>. We're ready to help you get started.
+                    Call us anytime at <a href="tel:2817642276" className="font-bold underline">(281) 764-2276</a>. We're ready to help you get started.
                   </p>
                 </div>
               </div>
@@ -148,10 +148,10 @@ export const ThankYou = (): JSX.Element => {
                   Call Now
                 </h3>
                 <a
-                  href="tel:2813038800"
+                  href="tel:2817642276"
                   className="font-['Roboto',Helvetica] font-bold text-[#d44500] text-lg md:text-xl hover:text-white transition-colors duration-300"
                 >
-                  281-303-8800
+                  (281) 764-2276
                 </a>
                 <p className="font-['Roboto',Helvetica] text-[#cbd5e0] text-xs md:text-sm mt-1 md:mt-2">
                   Available to help
