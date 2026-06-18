@@ -39,7 +39,7 @@ export const PracticeAreasSection = (): JSX.Element => {
             What Our Clients Say
           </h2>
           <div className="w-16 h-1 bg-[#ff8a00] mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600 font-['Montserrat',Helvetica]">
+          <p className="text-lg text-gray-600 font-['Roboto',Helvetica]">
             Don't just take our word for it. Here's what real clients have to say about their experience with Constellation Law.
           </p>
           
@@ -51,7 +51,7 @@ export const PracticeAreasSection = (): JSX.Element => {
               ))}
             </div>
             <span className="text-2xl font-bold text-[#434343] ml-2">5.0</span>
-            <span className="text-gray-600 font-['Montserrat',Helvetica]">Google Reviews</span>
+            <span className="text-gray-600 font-['Roboto',Helvetica]">Google Reviews</span>
           </div>
         </div>
         
@@ -81,10 +81,10 @@ export const PracticeAreasSection = (): JSX.Element => {
 
                 {/* Author */}
                 <div className="border-t border-gray-200 pt-4">
-                  <p className="font-['Montserrat',Helvetica] font-bold text-[#434343] text-lg">
+                  <p className="font-['Roboto',Helvetica] font-bold text-[#434343] text-lg">
                     {testimonial.author}
                   </p>
-                  <p className="text-sm text-gray-500 font-['Montserrat',Helvetica]">
+                  <p className="text-sm text-gray-500 font-['Roboto',Helvetica]">
                     Verified Google Review
                   </p>
                 </div>

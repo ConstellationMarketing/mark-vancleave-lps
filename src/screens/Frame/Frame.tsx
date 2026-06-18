@@ -14,13 +14,13 @@ export const Frame = (): JSX.Element => {
     <div className="w-full bg-white">
       <div className="flex flex-col">
         <HeroSection />
-        <ClientTestimonialsSection />
         <WhyUsSection />
         <CallToActionMainSection />
         <CriminalDefenseServicesSection />
         <AboutFirmSection />
         <WhyChooseUsSection />
         <ContactSection />
+        <ClientTestimonialsSection />
         <FooterSection />
       </div>
     </div>

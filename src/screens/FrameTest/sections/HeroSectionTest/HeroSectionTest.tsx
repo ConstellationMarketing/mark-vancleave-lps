@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
 
-export const HeroSection = (): JSX.Element => {
+export const HeroSectionTest = (): JSX.Element => {
   return (
     <section className="relative w-full bg-blend-darken [background:url(https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2F3dbdcf2e6efd470b824436ceb2b1f49c?format=webp&width=800&height=1200)_50%_50%_/_cover,linear-gradient(0deg,rgba(0,0,0,0.75)_0%,rgba(0,0,0,0.75)_100%)]">
       {/* Navigation Bar */}
@@ -34,25 +34,40 @@ export const HeroSection = (): JSX.Element => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative w-full max-w-[1130px] mx-auto mt-8 md:mt-[74px] pb-8 md:pb-[74px] px-4 md:px-8">
+      <div className="relative w-full max-w-[1130px] mx-auto mt-4 md:mt-[74px] pb-4 md:pb-[74px] px-4 md:px-8">
         <h1 className="[text-shadow:0px_0px_6.9px_#00000066] [font-family:'Poppins',sans-serif] font-bold text-white text-[30px] md:text-[70px] tracking-[0.5px] leading-[1.1] text-center md:text-left">
-          Injured in a Baytown Auto Accident? We Can Help You Seek Fair Compensation.
+          Baytown Auto Accident Lawyer: 25+ Years Fighting For Your Fair Compensation
         </h1>
 
         <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Montserrat',Helvetica] font-bold md:font-semibold text-[#d44500] text-[18px] md:text-[24px] leading-[1.2] text-center md:text-left">
-          With over 25 years of experience, we provide empathetic, clear, and reassuring legal support for victims of auto and 18-wheeler accidents in our local community.
+          Don't let insurance companies undervalue your claim. Get aggressive, local representation from a firm that treats you like family, not a file number.
         </p>
 
-        <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Roboto',Helvetica] text-white text-[18px] leading-[28px] text-center md:text-left">
-          Suffering a serious injury can turn your life upside down. Between physical pain, mounting medical bills, and lost wages, the process can feel overwhelming. You do not have to navigate this alone. At the Law Offices of Mark D. VanCleave, PLLC, our priority is your recovery. We focus on fairness and guiding you through the legal process so you can focus on healing.
+        <p className="mt-2 md:mt-3 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Roboto',Helvetica] text-white text-[16px] md:text-[18px] text-center md:text-left font-medium">
+          No upfront fees—you only pay if we win your case.*
         </p>
 
-        <Button
-          className="mt-6 md:mt-[38px] w-full md:w-auto px-8 pt-[30px] pb-[30px] bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
-          onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
-        >
-          Request a Free Case Evaluation
-        </Button>
+        {/* CTA and Google Badge Row */}
+        <div className="mt-3 md:mt-[38px] flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 md:gap-8">
+          <Button
+            className="w-full md:w-auto h-[90px] md:h-[70px] flex items-center justify-center !px-8 !pt-0 !pb-0 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
+            onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Request a Free Case Evaluation
+          </Button>
+
+          <div className="flex items-center gap-3">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc8a7b33c1f3e4309983e45cabed92535%2Fd4f220a6a205468c8472cfb9e2833491?format=webp&width=800&height=1200"
+              alt="Google"
+              className="w-6 h-6 md:w-8 md:h-8 flex-shrink-0"
+            />
+            <div className="text-white text-left">
+              <p className="text-sm md:text-base font-bold">4.9 ★</p>
+              <p className="text-xs md:text-sm">Google Reviews</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

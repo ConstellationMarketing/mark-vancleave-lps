@@ -48,6 +48,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          "Roboto",
           "ui-sans-serif",
           "system-ui",
           "sans-serif",
@@ -55,6 +56,12 @@ module.exports = {
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
+        ],
+        serif: [
+          "Montserrat",
+          "ui-serif",
+          "Georgia",
+          "serif",
         ],
       },
       keyframes: {

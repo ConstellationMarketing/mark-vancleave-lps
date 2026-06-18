@@ -18,31 +18,31 @@ export const ClientTestimonialsSection = (): JSX.Element => {
   // Client testimonials data
   const testimonials = [
     {
-      text: "Sarah Johnson is a phenomenal attorney I literally hired her 1 Day before my boyfriend's court date and did the best job I've seen so far. We've dealt with other lawyers and have never had a more positive result than this. Her and her assistant were Awesome! Thank you so much!! Great results! I highly recommend her!!!!!!!!",
-      author: "Jennifer M.",
+      text: "He was awesome, his staff were amazing. He took calls late at night/weekends. Never steered me wrong, very transparent and honest. He gained a life long client, if ever i need help.",
+      author: "Dave Marshall",
+      timeframe: "11 months ago",
     },
     {
-      text: "Ms. Sarah Johnson is an exceptional attorney and has my utmost trust. Her staff is phenomenal and keeps clients informed of the process throughout a case. I cannot recommend anyone better than her for a defense lawyer.",
-      author: "Michael R.",
+      text: "Mark was amazing and made our accident claim less stressful for us. He was open and honest, no hidden agenda. Made the process easy and I would highly recommend his services.",
+      author: "Debra Byrd",
+      timeframe: "1 year ago",
     },
     {
-      text: "Everything was perfect from beginning to end.",
-      author: "David L.",
+      text: "highly recommend for any personal injury! Mark & his team have helped me & my family for severals years now and has always been a big help & great communication with and keeping me updated with what was going on & looking out for my best interest and his staff is so nice and would help me out & keep me updated as well😊",
+      author: "Leticia Pesina",
+      timeframe: "1 year ago",
     }
   ];
 
   return (
-    <section className="w-full bg-white py-8">
-      <div className="max-w-[1130px] mx-auto">
+    <section className="w-full bg-white py-16 md:py-20">
+      <div className="max-w-[1130px] mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-[#434343] mb-4 font-['Playfair_Display',Helvetica]">
+          <h2 className="text-3xl font-bold text-[#091626] mb-4 font-['Montserrat',Helvetica]">
             What Our Clients Say
           </h2>
-          <div className="w-16 h-1 bg-[#ff8a00] mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600 font-['Montserrat',Helvetica]">
-            Don't just take our word for it. Here's what real clients have to say about their experience with Constellation Law.
-          </p>
-          
+          <div className="w-16 h-1 bg-[#d44500] mx-auto mb-4"></div>
+
           {/* Star Rating Display */}
           <div className="flex items-center justify-center gap-2 mt-6">
             <div className="flex">
@@ -51,7 +51,7 @@ export const ClientTestimonialsSection = (): JSX.Element => {
               ))}
             </div>
             <span className="text-2xl font-bold text-[#434343] ml-2">5.0</span>
-            <span className="text-gray-600 font-['Montserrat',Helvetica]">Google Reviews</span>
+            <span className="text-gray-600 font-['Roboto',Helvetica]">Google Reviews</span>
           </div>
         </div>
         
@@ -81,11 +81,11 @@ export const ClientTestimonialsSection = (): JSX.Element => {
 
                 {/* Author */}
                 <div className="border-t border-gray-200 pt-4">
-                  <p className="font-['Montserrat',Helvetica] font-bold text-[#434343] text-lg">
+                  <p className="font-['Roboto',Helvetica] font-bold text-[#434343] text-lg">
                     {testimonial.author}
                   </p>
-                  <p className="text-sm text-gray-500 font-['Montserrat',Helvetica]">
-                    Verified Google Review
+                  <p className="text-sm text-gray-500 font-['Roboto',Helvetica]">
+                    {testimonial.timeframe && `${testimonial.timeframe} • `}Verified Google Review
                   </p>
                 </div>
               </CardContent>

@@ -48,7 +48,7 @@ export const ServicesSection = (): JSX.Element => {
             Why Choose Constellation Law?
           </h2>
           <div className="w-24 h-1 bg-[#ff8a00] mx-auto mb-8"></div>
-          <p className="text-xl text-gray-600 font-['Montserrat',Helvetica] max-w-3xl mx-auto leading-[30px]">
+          <p className="text-xl text-gray-600 font-['Roboto',Helvetica] max-w-3xl mx-auto leading-[30px]">
             When your freedom and future are on the line, you need more than just any lawyer. You need a dedicated advocate who combines experience, integrity, and results.
           </p>
         </div>
@@ -71,7 +71,7 @@ export const ServicesSection = (): JSX.Element => {
                   </h3>
 
                   {/* Description */}
-                  <p className="font-['Montserrat',Helvetica] font-medium text-[#434343] text-base text-center tracking-[0] leading-[24px] mb-6 flex-grow">
+                  <p className="font-['Roboto',Helvetica] font-medium text-[#434343] text-base text-center tracking-[0] leading-[24px] mb-6 flex-grow">
                     {service.description}
                   </p>
 
@@ -82,7 +82,7 @@ export const ServicesSection = (): JSX.Element => {
                         {service.features.map((feature, featureIndex) => (
                           <li key={featureIndex} className="flex items-center justify-center text-sm">
                             <span className="w-2 h-2 bg-[#ff8a00] rounded-full mr-3 flex-shrink-0"></span>
-                            <span className="text-gray-700 font-['Montserrat',Helvetica]">{feature}</span>
+                            <span className="text-gray-700 font-['Roboto',Helvetica]">{feature}</span>
                           </li>
                         ))}
                       </ul>
@@ -99,7 +99,7 @@ export const ServicesSection = (): JSX.Element => {
           <h3 className="text-3xl font-bold text-white mb-4 font-['Playfair_Display',Helvetica]">
             Experience the Difference
           </h3>
-          <p className="text-xl text-[#cbd5e0] mb-8 font-['Montserrat',Helvetica] max-w-2xl mx-auto">
+          <p className="text-xl text-[#cbd5e0] mb-8 font-['Roboto',Helvetica] max-w-2xl mx-auto">
             Don't settle for less when your future is at stake. Choose a law firm that puts your needs first and fights tirelessly for your rights.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -116,10 +116,10 @@ export const ServicesSection = (): JSX.Element => {
               Request Consultation
             </button>
             <div className="text-center">
-              <p className="text-[#cbd5e0] font-['Montserrat',Helvetica] text-lg">
+              <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-lg">
                 (555) 123-4567
               </p>
-              <p className="text-[#cbd5e0] font-['Montserrat',Helvetica] text-sm">
+              <p className="text-[#cbd5e0] font-['Roboto',Helvetica] text-sm">
                 Available 24/7 • No Obligation
               </p>
             </div>
