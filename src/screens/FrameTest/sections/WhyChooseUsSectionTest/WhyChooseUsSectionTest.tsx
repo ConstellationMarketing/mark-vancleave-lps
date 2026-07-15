@@ -5,19 +5,19 @@ import { Lightbulb, MapPin, ShieldCheck } from "lucide-react";
 export const WhyChooseUsSectionTest = (): JSX.Element => {
   const highlights = [
     {
-      icon: Lightbulb,
-      title: "Tailored Strategy",
-      description: "No two accidents are the same, and no two injuries should be treated the same. We take the time to listen to your specific situation before formulating a strategy—whether that requires a swift settlement negotiation or an aggressive court battle."
-    },
-    {
       icon: MapPin,
       title: "True Local Knowledge",
-      description: "Because we are located right here in Baytown, we understand the local roadways, industrial areas, and community."
+      description: "Local Baytown office serving the immediate community."
     },
     {
       icon: ShieldCheck,
-      title: "100% Risk-Free*",
-      description: "We believe in full transparency. We handle personal injury cases on a contingency fee basis, meaning we charge no upfront payment, and you will not pay attorney fees unless we help you recover damages."
+      title: "No Upfront Cost",
+      description: "We handle personal injury cases on a contingency fee basis: no upfront payment, and no attorney fees unless we recover damages for you."
+    },
+    {
+      icon: Lightbulb,
+      title: "Tailored Strategy",
+      description: "Speak directly with a dedicated local legal team that treats you with respect and compassion, not as just another file number."
     }
   ];
 
@@ -27,9 +27,12 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-[24px] md:text-5xl font-bold text-[#091626] text-center mb-6 font-['Montserrat',Helvetica] leading-[28px] md:leading-[50px]">
-            Why Choose Us for Your Injury Claim
+            Why Choose the Law Offices of Mark D. VanCleave
           </h2>
-          <div className="w-24 h-1 bg-[#d44500] mx-auto mb-12"></div>
+          <div className="w-24 h-1 bg-[#d44500] mx-auto mb-6"></div>
+          <p className="font-medium text-base md:text-lg text-[#222125] max-w-3xl mx-auto mb-10 [font-family:'Roboto',Helvetica] leading-[24px] md:leading-[27px]">
+            Because we're located right here in Baytown, we understand the local roadways, industrial areas, and community.
+          </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {highlights.map((highlight, index) => {
@@ -100,7 +103,7 @@ export const WhyChooseUsSectionTest = (): JSX.Element => {
                 onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
                 className="flex items-center justify-center w-full h-[90px] md:h-[70px] px-8 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
               >
-                Request Consultation
+                Get My Free Case Review
               </button>
             </div>
           </div>

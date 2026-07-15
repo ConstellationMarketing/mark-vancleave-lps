@@ -16,7 +16,7 @@ export const StickyCTASectionTest = (): JSX.Element => {
             className="h-[50px] md:h-[48px] flex items-center justify-center !px-5 md:!px-6 !pt-0 !pb-0 bg-[#d44500] [font-family:'Roboto',Helvetica] text-white text-sm md:text-base tracking-[1px] rounded-none border-2 border-solid border-[#d44500] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300 font-medium"
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Request Free Consultation
+            Get My Free Case Review
           </Button>
         </div>
       </div>

@@ -7,22 +7,22 @@ export const PracticeAreasSectionTest = (): JSX.Element => {
     {
       icon: Car,
       title: "Auto Accidents",
-      description: "Clear, strategic guidance for victims of severe car crashes, focusing on helping you recover the compensation you deserve."
-    },
-    {
-      icon: Truck,
-      title: "18-Wheeler & Commercial Truck Accidents",
-      description: "Meticulous investigation into trucking logs, corporate negligence, and complex insurance policies to hold commercial companies accountable."
-    },
-    {
-      icon: AlertCircle,
-      title: "Accidents Caused By Drunk Drivers",
-      description: "Aggressive legal representation for those harmed by the reckless and negligent choices of intoxicated drivers."
+      description: "Clear, strategic guidance for victims of severe car crashes."
     },
     {
       icon: Bike,
       title: "Motorcycle Accidents",
       description: "Compassionate advocacy for riders facing catastrophic injuries and biased insurance adjusters."
+    },
+    {
+      icon: AlertCircle,
+      title: "Drunk & Reckless Driver Accidents",
+      description: "Aggressive legal representation for those harmed by the reckless and negligent choices of intoxicated drivers."
+    },
+    {
+      icon: Truck,
+      title: "Commercial & 18-Wheeler Accidents",
+      description: "Meticulous investigation into trucking logs, corporate negligence, and complex insurance policies to hold commercial companies accountable."
     }
   ];
 
@@ -32,11 +32,8 @@ export const PracticeAreasSectionTest = (): JSX.Element => {
         {/* Section Header */}
         <div className="text-center mb-8 md:mb-16">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-4 md:mb-6 [font-family:'Montserrat',Helvetica] tracking-[0] leading-[28px] md:leading-[35px] lg:leading-[39.6px] text-center">
-            Focused Auto Accident & Personal Injury Representation
+            How We Help After a Baytown-Area Accident
           </h2>
-          <p className="font-medium text-base md:text-lg lg:text-xl text-white [font-family:'Roboto',Helvetica] [text-shadow:0px_0px_6px_#00000066] tracking-[0] leading-6 md:leading-7 lg:leading-8 max-w-4xl text-center mx-auto">
-            We understand the profound impact an injury has on your life and your family. Our firm provides dedicated, one-on-one guidance to protect your rights after a crash.
-          </p>
         </div>
 
         {/* Services Grid */}
