@@ -21,12 +21,8 @@ export const MeetAttorneySectionTest = (): JSX.Element => {
               Meet Attorney Mark VanCleave
             </h2>
 
-            <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] leading-[24px] md:leading-[27px] mb-4 text-center lg:text-left">
-              Mark VanCleave is the founding attorney of the Law Offices of Mark D. VanCleave, PLLC. With over 25 years of legal experience, Mark has dedicated his career to guiding individuals through the overwhelming aftermath of severe accidents. Mark's reputation for aggressive, effective advocacy in tough personal injury cases is well-established throughout Baytown.
-            </p>
-
             <p className="font-['Roboto',Helvetica] font-medium text-base md:text-lg text-[#cbd5e0] leading-[24px] md:leading-[27px] mb-6 md:mb-8 text-center lg:text-left">
-              He understands the many ways that an injury can affect you and your loved ones, and he brings a fierce determination to prevail for his clients against massive insurance companies and corporate legal teams. While he is tough in negotiations and in court, Mark treats his clients with respect and compassion. He ensures that every client understands their rights and is never taken advantage of by the legal system.
+              Mark VanCleave is the founding attorney of the Law Offices of Mark D. VanCleave, PLLC. With over 25 years of legal experience, Mark has guided individuals through the aftermath of severe accidents, and his reputation for aggressive, effective advocacy in tough personal injury cases is well-established throughout Baytown. He is tough in negotiations and in court, while treating every client with respect and compassion — making sure they understand their rights every step of the way.
             </p>
 
             {/* Call to Action Button */}
@@ -35,7 +31,7 @@ export const MeetAttorneySectionTest = (): JSX.Element => {
                 className="h-[90px] md:h-[70px] flex items-center justify-center !px-8 !pt-0 !pb-0 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
                 onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Schedule Your Free Consultation
+                Get My Free Case Review
               </Button>
             </div>
           </div>

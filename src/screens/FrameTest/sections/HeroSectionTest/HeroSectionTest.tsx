@@ -36,24 +36,20 @@ export const HeroSectionTest = (): JSX.Element => {
       {/* Hero Content */}
       <div className="relative w-full max-w-[1130px] mx-auto mt-4 md:mt-[74px] pb-4 md:pb-[74px] px-4 md:px-8">
         <h1 className="[text-shadow:0px_0px_6.9px_#00000066] [font-family:'Poppins',sans-serif] font-bold text-white text-[30px] md:text-[70px] tracking-[0.5px] leading-[1.1] text-center md:text-left">
-          Baytown Auto Accident Lawyer: 25+ Years Fighting For Your Fair Compensation
+          Baytown Auto Accident Lawyer — Over 25 Years of Injury Experience
         </h1>
 
         <p className="mt-4 md:mt-6 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Montserrat',Helvetica] font-bold md:font-semibold text-[#d44500] text-[18px] md:text-[24px] leading-[1.2] text-center md:text-left">
-          Don't let insurance companies undervalue your claim. Get aggressive, local representation from a firm that treats you like family, not a file number.
-        </p>
-
-        <p className="mt-2 md:mt-3 [text-shadow:0px_0px_6.9px_#00000066] [font-family:'Roboto',Helvetica] text-white text-[16px] md:text-[18px] text-center md:text-left font-medium">
-          No upfront fees—you only pay if we win your case.*
+          Injured in a car, truck, or 18-wheeler accident? Get clear guidance from a local Baytown attorney — no upfront cost to you.
         </p>
 
         {/* CTA and Google Badge Row */}
-        <div className="mt-3 md:mt-[38px] flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 md:gap-8">
+        <div className="mt-4 md:mt-[38px] flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 md:gap-8">
           <Button
             className="w-full md:w-auto h-[90px] md:h-[70px] flex items-center justify-center !px-8 !pt-0 !pb-0 bg-[#d44600] [font-family:'Roboto',Helvetica] text-white text-[18px] tracking-[1px] rounded-none border-2 border-solid border-[#d44600] hover:bg-[#c23900] hover:border-[#c23900] transition-colors duration-300"
             onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Request a Free Case Evaluation
+            Get My Free Case Review
           </Button>
 
           <div className="flex items-center gap-3">
@@ -67,6 +63,20 @@ export const HeroSectionTest = (): JSX.Element => {
               <p className="text-xs md:text-sm">Google Reviews</p>
             </div>
           </div>
+        </div>
+
+        {/* Trust Bullets */}
+        <div className="mt-6 md:mt-8 grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4">
+          {[
+            'Over 25 Years of Personal Injury Experience',
+            'No Upfront Attorney Fees — Contingency Basis',
+            'Local Baytown Office — Rollingbrook Drive'
+          ].map((item) => (
+            <div key={item} className="flex items-center gap-2 bg-white/10 rounded px-3 py-2">
+              <span className="text-[#d44500] font-bold flex-shrink-0">✓</span>
+              <span className="[font-family:'Roboto',Helvetica] text-white text-sm md:text-base font-medium">{item}</span>
+            </div>
+          ))}
         </div>
       </div>
     </section>
